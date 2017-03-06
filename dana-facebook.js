@@ -13,6 +13,8 @@
 // 5. Subscribe your page to the Webhooks using verify_token and `https://<your_ngrok_io>/webhook` as callback URL.
 // 6. Talk to your bot on Messenger!
 
+console.log(process.env);
+
 const bodyParser = require('body-parser');
 const crypto = require('crypto');
 const express = require('express');
