@@ -195,7 +195,7 @@ const actions = {
 	  context.minor_url = '';
 	  
 	  for(var i=0; i < database.length; i++) {
-		  if(database[i].name == minor) {
+		  if(database[i].name.toUpperCase() == minor.toUpperCase()) {
 			  context.minor_url = baseUrl + database[i].url;
 		  }
 	  }
