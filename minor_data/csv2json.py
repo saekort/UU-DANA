@@ -9,7 +9,7 @@ Usage:  ./csv2json.py database.csv > database.json
 
 def formatrow(row):
     # ['Title', 'Path', 'Start period', 'Faculteiten', 'Minor taal', 'Interessegebied']
-    keys = ['name', 'url', 'startperiod', 'taal', 'gebied' ]
+    keys = ['name', 'url', 'startperiod', 'faculteit', 'taal', 'gebied' ]
 
     pstr = row[2].replace('Periode','').replace(' ','').split(',')
     try:
