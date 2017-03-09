@@ -13,8 +13,6 @@
 // 5. Subscribe your page to the Webhooks using verify_token and `https://<your_ngrok_io>/webhook` as callback URL.
 // 6. Talk to your bot on Messenger!
 
-console.log(process.env);
-
 const bodyParser = require('body-parser');
 const crypto = require('crypto');
 const express = require('express');
@@ -36,12 +34,12 @@ try {
 const PORT = process.env.PORT || 8445;
 
 // Wit.ai parameters
-const WIT_TOKEN = process.env.WIT_TOKEN;
+const WIT_TOKEN = process.env.WIT_TOKEN || 'TEMP';
 
 // Messenger API parameters
-const FB_PAGE_TOKEN = process.env.FB_PAGE_TOKEN;
+const FB_PAGE_TOKEN = process.env.FB_PAGE_TOKEN || 'TEMP';
 if (!FB_PAGE_TOKEN) { throw new Error('missing FB_PAGE_TOKEN') }
-const FB_APP_SECRET = process.env.FB_APP_SECRET;
+const FB_APP_SECRET = process.env.FB_APP_SECRET || 'TEMP';
 if (!FB_APP_SECRET) { throw new Error('missing FB_APP_SECRET') }
 
 let FB_VERIFY_TOKEN = null;
@@ -140,6 +138,20 @@ const wit = new Wit({
 });
 
 // Starting our webserver and putting it all together
+var fs = require('fs');
+var http = require('http');
+var https = require('https');
+
+var ssl_privatekey = process.env.SSL_PRIVATEKEY || 'certs/privatekey.key';
+var ssl_certificate = process.env.SSL_CERTIFICATE || 'certs/certificate.crt';
+var ssl_chain = process.env.SSL_CHAIN || 'certs/chain.crt';
+
+var privateKey = fs.readFileSync(ssl_privatekey);
+var certificate = fs.readFileSync(ssl_certificate);
+var chain = fs.readFileSync(ssl_chain);
+
+console.log(privateKey);
+
 const app = express();
 app.use(({method, url}, rsp, next) => {
   rsp.on('finish', () => {
