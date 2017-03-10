@@ -32,6 +32,7 @@ try {
 
 // Webserver parameter
 const PORT = process.env.PORT || 8445;
+const REDIRECT_PORT = process.env.REDIRECT_PORT || 8480;
 
 // Wit.ai parameters
 const WIT_TOKEN = process.env.WIT_TOKEN || 'TEMP';
@@ -150,7 +151,13 @@ var privateKey = fs.readFileSync(ssl_privatekey);
 var certificate = fs.readFileSync(ssl_certificate);
 var chain = fs.readFileSync(ssl_chain);
 
+var credentials = {key: privateKey, cert: certificate};
+
 const app = express();
+
+var httpServer = http.createServer(app);
+var httpsServer = https.createServer(credentials, app);
+
 app.use(({method, url}, rsp, next) => {
   rsp.on('finish', () => {
     console.log(`${rsp.statusCode} ${method} ${url}`);
@@ -263,5 +270,8 @@ function verifyRequestSignature(req, res, buf) {
   }
 }
 
-app.listen(PORT);
-console.log('Listening on :' + PORT + '...');
+//app.listen(PORT);
+httpServer.listen(REDIRECT_PORT);
+httpsServer.listen(PORT);
+
+
