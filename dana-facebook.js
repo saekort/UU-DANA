@@ -95,7 +95,7 @@ const findOrCreateSession = (fbid) => {
   if (!sessionId) {
     // No session found for user fbid, let's create a new one
     sessionId = new Date().toISOString();
-    sessions[sessionId] = {fbid: fbid, context: {}};
+    sessions[sessionId] = {fbid: fbid, context: {}}; v
   }
   return sessionId;
 };
@@ -149,8 +149,6 @@ var ssl_chain = process.env.SSL_CHAIN || 'certs/chain.crt';
 var privateKey = fs.readFileSync(ssl_privatekey);
 var certificate = fs.readFileSync(ssl_certificate);
 var chain = fs.readFileSync(ssl_chain);
-
-console.log(privateKey);
 
 const app = express();
 app.use(({method, url}, rsp, next) => {
