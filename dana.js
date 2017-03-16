@@ -48,6 +48,11 @@ const actions = {
     }
     return context;
   },
+  countminors({context, entities}) {
+     var database = require(process.cwd() + '/minor_data/database.json');
+     context.aantalminors = database.length;
+     return(context);
+  },
   getMinorInfo({context, entities}) {
 	  var baseUrl = 'https://students.uu.nl';
 	  console.log(entities);
