@@ -96,7 +96,7 @@ const findOrCreateSession = (fbid) => {
   if (!sessionId) {
     // No session found for user fbid, let's create a new one
     sessionId = new Date().toISOString();
-    sessions[sessionId] = {fbid: fbid, context: {}}; v
+    sessions[sessionId] = {fbid: fbid, context: {}};
   }
   return sessionId;
 };
@@ -273,5 +273,3 @@ function verifyRequestSignature(req, res, buf) {
 //app.listen(PORT);
 httpServer.listen(REDIRECT_PORT);
 httpsServer.listen(PORT);
-
-
