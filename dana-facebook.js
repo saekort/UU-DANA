@@ -151,7 +151,7 @@ var privateKey = fs.readFileSync(ssl_privatekey);
 var certificate = fs.readFileSync(ssl_certificate);
 var chain = fs.readFileSync(ssl_chain);
 
-var credentials = {key: privateKey, cert: certificate};
+var credentials = {key: privateKey, cert: certificate, ca: chain};
 
 const app = express();
 
