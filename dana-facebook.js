@@ -18,6 +18,11 @@ const crypto = require('crypto');
 const express = require('express');
 const fetch = require('node-fetch');
 const request = require('request');
+const finalhandler = require('finalhandler')
+const serveStatic = require('serve-static')
+const path = require('path');
+
+const serve = serveStatic('public', {'index': ['index.html']});
 
 let Wit = null;
 let log = null;
@@ -176,6 +181,8 @@ app.get('/webhook', (req, res) => {
   }
 });
 
+app.use(express.static(path.join(__dirname, 'public')));
+
 // Message handler
 app.post('/webhook', (req, res) => {
   // Parse the Messenger payload
@@ -270,6 +277,101 @@ function verifyRequestSignature(req, res, buf) {
   }
 }
 
-//app.listen(PORT);
+//------------------ SOCKET
+var database = require(process.cwd() + '/minor_data/database.json');
+var io = require('socket.io').listen(httpsServer);
+
+io.on('connection', function (socket) {
+
+  const actions_local = {
+    send(request, response) {
+      const {sessionId, context, entities} = request;
+      const {text, quickreplies} = response;
+      //console.log('@'+text);
+      socket.emit('msg', { 'message' : text });
+    },
+    countminors({context, entities}) {
+      var database = require(process.cwd() + '/minor_data/database.json');
+      context.aantalminors = database.length;
+      return(context);
+    },
+    getMinorInfo({context, entities}) {
+      var baseUrl = 'https://students.uu.nl';
+      console.log(entities);
+      var minor = firstEntityValue(entities, 'minor');
+      var minorUrl = '';
+      context.minor_type = minor;
+      context.minor_url = '';
+      var array_minor_matches = [];
+      var text_minor_matches = '';
+      if(minor != null)
+      {
+        for(var i=0, j=0; i < database.length; i++) {
+
+          // Find multiple matches
+          if(database[i].name.toUpperCase().includes( minor.toUpperCase()))
+          {
+            array_minor_matches.push( database[i].name );
+            j++;
+            if(j > 1) text_minor_matches = text_minor_matches + ", ";
+            text_minor_matches = text_minor_matches + "#" + j + " " +  database[i].name;
+            // Keep last url
+	    context.minor_url = baseUrl + database[i].url;
+          }
+        }
+      }
+
+      if( array_minor_matches.length > 1 )
+      {
+         context.minor_type = text_minor_matches;
+         context.minor_url = baseUrl;
+	 return context;
+      } 
+      if(context.minor_url == '') 
+      {
+        context.minor_type = '[UNKNOWN MINOR]';
+        context.minor_url = baseUrl;
+        return context;
+      }
+      return context;
+    },
+    default({context, entities}) {
+      //console.log(arguments);
+      //console.log(arguments);
+      //console.log(JSON.stringify(entities) );
+      return context;
+    }
+  };
+
+  var uuid = require('uuid');
+  var sessionId = uuid.v1();
+
+  //const client = new Wit({accessToken, actions_local});
+  console.log(actions_local);
+  const client = new Wit({
+	  accessToken: WIT_TOKEN,
+	  actions: actions_local,
+	  logger: new log.Logger(log.INFO)
+	});
+  console.log(JSON.stringify(client));
+  var sessions = {};
+  sessions[sessionId] = { context: {} };
+  
+  socket.on('msg', function (data) {
+    console.log(data);
+    var r = client.runActions(
+      sessionId,
+      data.message,
+      sessions[sessionId].context
+    ).then((context) => {
+      sessions[sessionId].context = context;
+    }).catch((err) => {
+      console.error('Error: ', err.stack || err);
+      socket.emit('msg', {'message':'ERROR, DANA seems down'} );
+    });
+  });
+});
+//------------ END SOCKET
+
 httpServer.listen(REDIRECT_PORT);
 httpsServer.listen(PORT);
