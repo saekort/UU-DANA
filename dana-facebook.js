@@ -271,7 +271,7 @@ function verifyRequestSignature(req, res, buf) {
 }
 
 //app.listen(PORT);
-httpServer.listen(REDIRECT_PORT);
+//httpServer.listen(REDIRECT_PORT);
 httpsServer.listen(PORT);
 
 
