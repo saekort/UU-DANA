@@ -69,6 +69,23 @@ module.exports = {
       } 
     }
     return ids;
+  },
+  getMinor: function(idx) {
+    return database[idx];
+  },
+  getAreas: function() {
+    // Even snel zo. 
+    var gebieden = 
+      ['Health and life sciences'
+      ,'Social and behavioural sciences'
+      ,'Law, economics and governance'
+      ,'Earth and sustainability'
+      ,'Information technology'
+      ,'Nature'
+      ,'Art, culture and history'
+      ,'Language, literature and communication'
+      ,'Religion, philosophy and ethics '
+      ];
+    return gebieden;
   }
-
 }

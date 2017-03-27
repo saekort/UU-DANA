@@ -2,7 +2,7 @@
   {
     "name": "Aarde, klimaat en  leven (biogeologie)", 
     "url": "/geo/aw/aarde-klimaat-en-leven-biogeologie", 
-    "gebied": "Aarde en milieu", 
+    "gebied": "Earth and sustainability", 
     "startperiod": [
       2, 
       3
@@ -13,7 +13,7 @@
   {
     "name": "Aarde, water en milieu (geochemie)", 
     "url": "/geo/aw/aarde-water-en-milieu-geochemie", 
-    "gebied": "Aarde en milieu", 
+    "gebied": "Earth and sustainability", 
     "startperiod": [
       1
     ], 
@@ -23,7 +23,7 @@
   {
     "name": "Aardoppervlak en landvormen (fysische geografie)", 
     "url": "/geo/aw/aardoppervlak-en-landvormen-fysische-geografie", 
-    "gebied": "Aarde en milieu", 
+    "gebied": "Earth and sustainability", 
     "startperiod": [
       2
     ], 
@@ -33,7 +33,7 @@
   {
     "name": "Addiction", 
     "url": "/dgk/addiction", 
-    "gebied": "Mens, dier en gezondheid, Mens en gedrag", 
+    "gebied": "Health and life sciences, Social and behavioural sciences", 
     "startperiod": [], 
     "faculteit": "Diergeneeskunde", 
     "taal": "Nederlands"
@@ -41,7 +41,7 @@
   {
     "name": "Algemene sociale wetenschappen", 
     "url": "/fsw/algemene-sociale-wetenschappen-1", 
-    "gebied": "Mens en gedrag", 
+    "gebied": "Social and behavioural sciences", 
     "startperiod": [
       1
     ], 
@@ -51,7 +51,7 @@
   {
     "name": "Antieke cultuur", 
     "url": "/gw/antieke-cultuur", 
-    "gebied": "Kunst, cultuur en geschiedenis, Religie, filosofie en ethiek", 
+    "gebied": "Art, culture and history, Religion, philosophy and ethics", 
     "startperiod": [
       1
     ], 
@@ -61,7 +61,7 @@
   {
     "name": "Arabisch", 
     "url": "/gw/arabisch", 
-    "gebied": "Kunst, cultuur en geschiedenis, Talen en culturen, communicatie, Religie, filosofie en ethiek", 
+    "gebied": "Art, culture and history, Language, literature and communication, Religion, philosophy and ethics", 
     "startperiod": [
       1
     ], 
@@ -71,7 +71,7 @@
   {
     "name": "Arbeid, zorg en participatie", 
     "url": "/fsw/arbeid-zorg-en-participatie", 
-    "gebied": "Mens en gedrag", 
+    "gebied": "Social and behavioural sciences", 
     "startperiod": [
       1
     ], 
@@ -81,7 +81,7 @@
   {
     "name": "Arbeids- en Organisatiepsychologie", 
     "url": "/fsw/arbeids-en-organisatiepsychologie", 
-    "gebied": "Mens en gedrag", 
+    "gebied": "Social and behavioural sciences", 
     "startperiod": [
       1
     ], 
@@ -91,7 +91,7 @@
   {
     "name": "Archeologie", 
     "url": "/gw/archeologie", 
-    "gebied": "Kunst, cultuur en geschiedenis", 
+    "gebied": "Art, culture and history", 
     "startperiod": [
       1
     ], 
@@ -101,7 +101,7 @@
   {
     "name": "Atlantic Europe", 
     "url": "/en/node/351/atlantic-europe", 
-    "gebied": "Kunst, cultuur en geschiedenis", 
+    "gebied": "Art, culture and history", 
     "startperiod": [
       3
     ], 
@@ -111,7 +111,7 @@
   {
     "name": "Beeldcultuur en samenleving", 
     "url": "/gw/beeldcultuur-en-samenleving", 
-    "gebied": "Mens en gedrag, Kunst, cultuur en geschiedenis, Talen en culturen, communicatie", 
+    "gebied": "Social and behavioural sciences, Art, culture and history, Language, literature and communication", 
     "startperiod": [
       3
     ], 
@@ -121,7 +121,7 @@
   {
     "name": "Beleidssociologie", 
     "url": "/fsw/beleidssociologie", 
-    "gebied": "Mens en gedrag", 
+    "gebied": "Social and behavioural sciences", 
     "startperiod": [
       1
     ], 
@@ -131,7 +131,7 @@
   {
     "name": "Bestuurs- en Organisatiewetenschap Algemeen", 
     "url": "/rebo/bestuurs-en-organisatiewetenschap-algemeen", 
-    "gebied": "Recht, economie en bestuur", 
+    "gebied": "Law, economics and governance", 
     "startperiod": [
       1, 
       2, 
@@ -157,7 +157,7 @@
   {
     "name": "Brains & Bodies: cognitie en emotie in de geesteswetenschappen", 
     "url": "/gw/brains-bodies-cognitie-en-emotie-in-de-geesteswetenschappen", 
-    "gebied": "Mens en gedrag, Kunst, cultuur en geschiedenis, Talen en culturen, communicatie", 
+    "gebied": "Social and behavioural sciences, Art, culture and history, Language, literature and communication", 
     "startperiod": [], 
     "faculteit": "Geesteswetenschappen", 
     "taal": "Nederlands"
@@ -165,7 +165,7 @@
   {
     "name": "Burgerschap, Identiteit en Mondialisering", 
     "url": "/fsw/burgerschap-identiteit-en-mondialisering", 
-    "gebied": "Mens en gedrag", 
+    "gebied": "Social and behavioural sciences", 
     "startperiod": [
       1
     ], 
@@ -175,7 +175,7 @@
   {
     "name": "Business Economics", 
     "url": "/en/leg/economics-and-business-economics/business-economics", 
-    "gebied": "Recht, economie en bestuur", 
+    "gebied": "Law, economics and governance", 
     "startperiod": [
       2, 
       3, 
@@ -187,7 +187,7 @@
   {
     "name": "Cognitie", 
     "url": "/fsw/cognitie", 
-    "gebied": "Mens en gedrag", 
+    "gebied": "Social and behavioural sciences", 
     "startperiod": [
       1
     ], 
@@ -197,7 +197,7 @@
   {
     "name": "Communicatie- en informatiewetenschappen", 
     "url": "/gw/communicatie-en-informatiewetenschappen", 
-    "gebied": "Talen en culturen, communicatie", 
+    "gebied": "Language, literature and communication", 
     "startperiod": [
       1
     ], 
@@ -207,7 +207,7 @@
   {
     "name": "Comparative Media Studies", 
     "url": "/en/hum/comparative-media-studies", 
-    "gebied": "Kunst, cultuur en geschiedenis, Talen en culturen, communicatie", 
+    "gebied": "Art, culture and history, Language, literature and communication", 
     "startperiod": [
       1, 
       2, 
@@ -220,7 +220,7 @@
   {
     "name": "Computational Science", 
     "url": "/beta/informatica/computational-science", 
-    "gebied": "Informatietechnologie", 
+    "gebied": "Information technology", 
     "startperiod": [
       1, 
       3
@@ -231,7 +231,7 @@
   {
     "name": "Conflict Studies", 
     "url": "/en/hum/conflict-studies", 
-    "gebied": "Mens en gedrag, Kunst, cultuur en geschiedenis", 
+    "gebied": "Social and behavioural sciences, Art, culture and history", 
     "startperiod": [
       1
     ], 
@@ -241,7 +241,7 @@
   {
     "name": "Creative Cities", 
     "url": "/en/hum/creative-cities", 
-    "gebied": "Mens en gedrag, Kunst, cultuur en geschiedenis", 
+    "gebied": "Social and behavioural sciences, Art, culture and history", 
     "startperiod": [
       1, 
       2, 
@@ -254,7 +254,7 @@
   {
     "name": "Criminologie voor studenten Rechtsgeleerdheid", 
     "url": "/rebo/criminologie-voor-studenten-rechtsgeleerdheid", 
-    "gebied": "Recht, economie en bestuur", 
+    "gebied": "Law, economics and governance", 
     "startperiod": [
       1
     ], 
@@ -264,7 +264,7 @@
   {
     "name": "Criminologie voor studenten Sociale Wetenschappen", 
     "url": "/rebo/crimonologie-voor-studenten-sociale-wetenschappen", 
-    "gebied": "Recht, economie en bestuur", 
+    "gebied": "Law, economics and governance", 
     "startperiod": [
       1
     ], 
@@ -274,7 +274,7 @@
   {
     "name": "Culturele diversiteit", 
     "url": "/fsw/culturele-diversiteit", 
-    "gebied": "Mens en gedrag", 
+    "gebied": "Social and behavioural sciences", 
     "startperiod": [
       1, 
       2
@@ -285,7 +285,7 @@
   {
     "name": "Cultuur, communicatie en mediastudies", 
     "url": "/fsw/cultuur-communicatie-en-mediastudies", 
-    "gebied": "Mens en gedrag", 
+    "gebied": "Social and behavioural sciences", 
     "startperiod": [], 
     "faculteit": "Sociale Wetenschappen", 
     "taal": "Nederlands"
@@ -293,7 +293,7 @@
   {
     "name": "De macht en onmacht van de markt", 
     "url": "/gw/de-macht-en-onmacht-van-de-markt", 
-    "gebied": "Recht, economie en bestuur, Kunst, cultuur en geschiedenis, Talen en culturen, communicatie", 
+    "gebied": "Law, economics and governance, Art, culture and history, Language, literature and communication", 
     "startperiod": [
       1
     ], 
@@ -303,7 +303,7 @@
   {
     "name": "De Middellandse zee: brug en kloof", 
     "url": "/gw/de-middellandse-zee-brug-en-kloof", 
-    "gebied": "Kunst, cultuur en geschiedenis, Talen en culturen, communicatie, Religie, filosofie en ethiek", 
+    "gebied": "Art, culture and history, Language, literature and communication, Religion, philosophy and ethics", 
     "startperiod": [], 
     "faculteit": "Geesteswetenschappen", 
     "taal": "Nederlands"
@@ -311,7 +311,7 @@
   {
     "name": "De sprekende samenleving", 
     "url": "/gw/de-sprekende-samenleving", 
-    "gebied": "Talen en culturen, communicatie", 
+    "gebied": "Language, literature and communication", 
     "startperiod": [
       1
     ], 
@@ -321,7 +321,7 @@
   {
     "name": "Deltametropool: planningsvraagstukken en mobiliteit", 
     "url": "/geo/deltametropool-planningsvraagstukken-en-mobiliteit", 
-    "gebied": "Mens en gedrag, Aarde en milieu", 
+    "gebied": "Social and behavioural sciences, Earth and sustainability", 
     "startperiod": [
       1, 
       2, 
@@ -334,7 +334,7 @@
   {
     "name": "Development Geography", 
     "url": "/geo/sgpl/development-geography", 
-    "gebied": "Aarde en milieu", 
+    "gebied": "Earth and sustainability", 
     "startperiod": [
       1, 
       2, 
@@ -347,7 +347,7 @@
   {
     "name": "Digital Humanities", 
     "url": "/gw/digital-humanities", 
-    "gebied": "Informatietechnologie, Kunst, cultuur en geschiedenis, Talen en culturen, communicatie, Religie, filosofie en ethiek", 
+    "gebied": "Information technology, Art, culture and history, Language, literature and communication, Religion, philosophy and ethics", 
     "startperiod": [
       1
     ], 
@@ -357,7 +357,7 @@
   {
     "name": "Duitse taal en cultuur", 
     "url": "/gw/duitse-taal-en-cultuur-0", 
-    "gebied": "Talen en culturen, communicatie", 
+    "gebied": "Language, literature and communication", 
     "startperiod": [
       1
     ], 
@@ -367,7 +367,7 @@
   {
     "name": "Duurzaam ondernemen en innovatie", 
     "url": "/geo/duurzaam-ondernemen-en-innovatie", 
-    "gebied": "Aarde en milieu", 
+    "gebied": "Earth and sustainability", 
     "startperiod": [
       1, 
       2, 
@@ -380,7 +380,7 @@
   {
     "name": "Duurzame ontwikkeling", 
     "url": "/geo/duurzame-ontwikkeling", 
-    "gebied": "Aarde en milieu", 
+    "gebied": "Earth and sustainability", 
     "startperiod": [
       1, 
       2, 
@@ -392,7 +392,7 @@
   {
     "name": "Economics", 
     "url": "/en/leg/economics-and-business-economics/economics", 
-    "gebied": "Recht, economie en bestuur", 
+    "gebied": "Law, economics and governance", 
     "startperiod": [
       1, 
       2, 
@@ -405,7 +405,7 @@
   {
     "name": "Economische geografie", 
     "url": "/geo/sgpl/economische-geografie", 
-    "gebied": "Aarde en milieu", 
+    "gebied": "Earth and sustainability", 
     "startperiod": [
       1, 
       2, 
@@ -418,7 +418,7 @@
   {
     "name": "Educatieve minor alfa", 
     "url": "/fsw/educatieve-minor-alfa", 
-    "gebied": "Mens en gedrag, Recht, economie en bestuur, Aarde en milieu, Kunst, cultuur en geschiedenis, Talen en culturen, communicatie, Religie, filosofie en ethiek", 
+    "gebied": "Social and behavioural sciences, Law, economics and governance, Earth and sustainability, Art, culture and history, Language, literature and communication, Religion, philosophy and ethics", 
     "startperiod": [
       2
     ], 
@@ -428,7 +428,7 @@
   {
     "name": "Educatieve minor b\u00e8ta", 
     "url": "/beta/educatieve-minor-beta", 
-    "gebied": "Mens en gedrag, Informatietechnologie", 
+    "gebied": "Social and behavioural sciences, Information technology", 
     "startperiod": [
       3
     ], 
@@ -438,7 +438,7 @@
   {
     "name": "Educatieve minor gamma", 
     "url": "/fsw/educatieve-minor-gamma", 
-    "gebied": "Mens en gedrag, Recht, economie en bestuur, Aarde en milieu, Kunst, cultuur en geschiedenis, Talen en culturen, communicatie, Religie, filosofie en ethiek", 
+    "gebied": "Social and behavioural sciences, Law, economics and governance, Earth and sustainability, Art, culture and history, Language, literature and communication, Religion, philosophy and ethics", 
     "startperiod": [
       2
     ], 
@@ -448,7 +448,7 @@
   {
     "name": "English Language and Culture", 
     "url": "/en/node/351/english-language-and-culture", 
-    "gebied": "Kunst, cultuur en geschiedenis, Talen en culturen, communicatie", 
+    "gebied": "Art, culture and history, Language, literature and communication", 
     "startperiod": [
       1
     ], 
@@ -458,7 +458,7 @@
   {
     "name": "Entrepreneurship", 
     "url": "/en/leg/economics-and-business-economics/entrepreneurship", 
-    "gebied": "Recht, economie en bestuur", 
+    "gebied": "Law, economics and governance", 
     "startperiod": [
       1, 
       2, 
@@ -471,7 +471,7 @@
   {
     "name": "Entrepreneurship in Life Sciences and Health", 
     "url": "/geo/entrepreneurship-in-life-sciences-and-health", 
-    "gebied": "Mens, dier en gezondheid", 
+    "gebied": "Health and life sciences", 
     "startperiod": [
       1, 
       2, 
@@ -484,7 +484,7 @@
   {
     "name": "Esthetica (filosofie van de kunsten)", 
     "url": "/gw/esthetica-filosofie-van-de-kunsten", 
-    "gebied": "Kunst, cultuur en geschiedenis, Religie, filosofie en ethiek", 
+    "gebied": "Art, culture and history, Religion, philosophy and ethics", 
     "startperiod": [
       1
     ], 
@@ -502,7 +502,7 @@
   {
     "name": "European Governance", 
     "url": "/en/node/607/european-governance", 
-    "gebied": "Recht, economie en bestuur", 
+    "gebied": "Law, economics and governance", 
     "startperiod": [
       1
     ], 
@@ -512,7 +512,7 @@
   {
     "name": "Franse taal en cultuur", 
     "url": "/gw/franse-taal-en-cultuur-0", 
-    "gebied": "Kunst, cultuur en geschiedenis, Talen en culturen, communicatie", 
+    "gebied": "Art, culture and history, Language, literature and communication", 
     "startperiod": [
       1
     ], 
@@ -522,7 +522,7 @@
   {
     "name": "Game Studies", 
     "url": "/gw/game-studies", 
-    "gebied": "Informatietechnologie, Talen en culturen, communicatie", 
+    "gebied": "Information technology, Language, literature and communication", 
     "startperiod": [
       1, 
       3
@@ -533,7 +533,7 @@
   {
     "name": "Gehandicaptenzorg en kinderrevalidatie", 
     "url": "/fsw/gehandicaptenzorg-en-kinderrevalidatie", 
-    "gebied": "Mens en gedrag", 
+    "gebied": "Social and behavioural sciences", 
     "startperiod": [
       2
     ], 
@@ -543,7 +543,7 @@
   {
     "name": "Gender Studies", 
     "url": "/en/node/351/gender-studies", 
-    "gebied": "Mens en gedrag, Kunst, cultuur en geschiedenis", 
+    "gebied": "Social and behavioural sciences, Art, culture and history", 
     "startperiod": [
       1, 
       2, 
@@ -556,7 +556,7 @@
   {
     "name": "Geneesmiddelonderzoek", 
     "url": "/beta/farmacie-b/geneesmiddelonderzoek", 
-    "gebied": "Mens, dier en gezondheid", 
+    "gebied": "Health and life sciences", 
     "startperiod": [], 
     "faculteit": "B\u00e8tawetenschappen", 
     "taal": "Nederlands"
@@ -564,7 +564,7 @@
   {
     "name": "Geologie van de vaste aarde", 
     "url": "/geo/aw/geologie-van-de-vaste-aarde", 
-    "gebied": "Aarde en milieu", 
+    "gebied": "Earth and sustainability", 
     "startperiod": [
       1
     ], 
@@ -574,7 +574,7 @@
   {
     "name": "Geschiedenis", 
     "url": "/gw/geschiedenis-0", 
-    "gebied": "Kunst, cultuur en geschiedenis", 
+    "gebied": "Art, culture and history", 
     "startperiod": [
       1, 
       2, 
@@ -586,7 +586,7 @@
   {
     "name": "Geschiedenis en Filosofie van de Natuurwetenschappen", 
     "url": "/beta/geschiedenis-en-filosofie-van-de-natuurwetenschappen", 
-    "gebied": "Natuur, Religie, filosofie en ethiek", 
+    "gebied": "Nature, Religion, philosophy and ethics", 
     "startperiod": [
       2
     ], 
@@ -596,7 +596,7 @@
   {
     "name": "Geschiedenis en herinnering in de digitale wereld", 
     "url": "/gw/geschiedenis-en-herinnering-in-de-digitale-wereld", 
-    "gebied": "Kunst, cultuur en geschiedenis, Talen en culturen, communicatie", 
+    "gebied": "Art, culture and history, Language, literature and communication", 
     "startperiod": [
       1
     ], 
@@ -606,7 +606,7 @@
   {
     "name": "Global Asia", 
     "url": "/en/hum/global-asia", 
-    "gebied": "Kunst, cultuur en geschiedenis", 
+    "gebied": "Art, culture and history", 
     "startperiod": [
       3
     ], 
@@ -616,7 +616,7 @@
   {
     "name": "Global Change", 
     "url": "/geo/global-change", 
-    "gebied": "Aarde en milieu", 
+    "gebied": "Earth and sustainability", 
     "startperiod": [
       1, 
       2, 
@@ -642,7 +642,7 @@
   {
     "name": "Gouden tijden in Vroegmodern Europa: conflict, competitie en creativiteit", 
     "url": "/gw/gouden-tijden-in-vroegmodern-europa", 
-    "gebied": "Kunst, cultuur en geschiedenis, Talen en culturen, communicatie", 
+    "gebied": "Art, culture and history, Language, literature and communication", 
     "startperiod": [
       1
     ], 
@@ -652,7 +652,7 @@
   {
     "name": "Griekse taal & cultuur in de Europese traditie", 
     "url": "/gw/griekse-taal-cultuur-in-de-europese-traditie", 
-    "gebied": "Kunst, cultuur en geschiedenis, Talen en culturen, communicatie", 
+    "gebied": "Art, culture and history, Language, literature and communication", 
     "startperiod": [
       1
     ], 
@@ -662,7 +662,7 @@
   {
     "name": "Grote werken uit de literatuur", 
     "url": "/gw/grote-werken-uit-de-literatuur", 
-    "gebied": "Kunst, cultuur en geschiedenis, Talen en culturen, communicatie", 
+    "gebied": "Art, culture and history, Language, literature and communication", 
     "startperiod": [], 
     "faculteit": "Geesteswetenschappen", 
     "taal": "Nederlands"
@@ -670,7 +670,7 @@
   {
     "name": "Health, Behaviour, and Society ", 
     "url": "/en/fss/health-behaviour-and-society", 
-    "gebied": "Mens en gedrag", 
+    "gebied": "Social and behavioural sciences", 
     "startperiod": [
       2
     ], 
@@ -680,7 +680,7 @@
   {
     "name": "Het goede, het ware, het schone", 
     "url": "/gw/het-goede-het-ware-het-schone", 
-    "gebied": "Kunst, cultuur en geschiedenis, Religie, filosofie en ethiek", 
+    "gebied": "Art, culture and history, Religion, philosophy and ethics", 
     "startperiod": [
       1, 
       2
@@ -691,7 +691,7 @@
   {
     "name": "Informatica", 
     "url": "/beta/informatica/informatica", 
-    "gebied": "Informatietechnologie", 
+    "gebied": "Information technology", 
     "startperiod": [
       1
     ], 
@@ -701,7 +701,7 @@
   {
     "name": "Informatica voor hbo-studenten", 
     "url": "/beta/informatica/informatica-voor-hbo-studenten", 
-    "gebied": "Informatietechnologie", 
+    "gebied": "Information technology", 
     "startperiod": [
       1
     ], 
@@ -711,7 +711,7 @@
   {
     "name": "Informatiekunde", 
     "url": "/beta/informatiekunde/informatiekunde-0", 
-    "gebied": "Informatietechnologie", 
+    "gebied": "Information technology", 
     "startperiod": [
       1, 
       3
@@ -722,7 +722,7 @@
   {
     "name": "Inleiding in het recht ", 
     "url": "/rebo/inleiding-in-het-recht", 
-    "gebied": "Recht, economie en bestuur", 
+    "gebied": "Law, economics and governance", 
     "startperiod": [
       1
     ], 
@@ -732,7 +732,7 @@
   {
     "name": "Innovatiewetenschap (Innovation Science)", 
     "url": "/geo/innovatiewetenschap", 
-    "gebied": "Aarde en milieu", 
+    "gebied": "Earth and sustainability", 
     "startperiod": [
       1
     ], 
@@ -742,7 +742,7 @@
   {
     "name": "Internationale betrekkingen", 
     "url": "/gw/internationale-betrekkingen", 
-    "gebied": "Recht, economie en bestuur, Kunst, cultuur en geschiedenis, Talen en culturen, communicatie", 
+    "gebied": "Law, economics and governance, Art, culture and history, Language, literature and communication", 
     "startperiod": [
       1
     ], 
@@ -752,7 +752,7 @@
   {
     "name": "Islam", 
     "url": "/gw/islam", 
-    "gebied": "Talen en culturen, communicatie, Religie, filosofie en ethiek", 
+    "gebied": "Language, literature and communication, Religion, philosophy and ethics", 
     "startperiod": [], 
     "faculteit": "Geesteswetenschappen", 
     "taal": "Nederlands"
@@ -760,7 +760,7 @@
   {
     "name": "Italiaanse taal en cultuur", 
     "url": "/gw/italiaanse-taal-en-cultuur-0", 
-    "gebied": "Talen en culturen, communicatie", 
+    "gebied": "Language, literature and communication", 
     "startperiod": [], 
     "faculteit": "Geesteswetenschappen", 
     "taal": "Nederlands"
@@ -768,7 +768,7 @@
   {
     "name": "Jeugd en criminaliteit", 
     "url": "/fsw/jeugd-en-criminaliteit", 
-    "gebied": "Mens en gedrag", 
+    "gebied": "Social and behavioural sciences", 
     "startperiod": [
       1
     ], 
@@ -778,7 +778,7 @@
   {
     "name": "Jeugdstudies", 
     "url": "/fsw/jeugdstudies-0", 
-    "gebied": "Mens en gedrag", 
+    "gebied": "Social and behavioural sciences", 
     "startperiod": [
       1
     ], 
@@ -788,7 +788,7 @@
   {
     "name": "Keltische talen en cultuur", 
     "url": "/en/node/351/keltische-talen-en-cultuur", 
-    "gebied": "Kunst, cultuur en geschiedenis, Talen en culturen, communicatie", 
+    "gebied": "Art, culture and history, Language, literature and communication", 
     "startperiod": [], 
     "faculteit": "Geesteswetenschappen", 
     "taal": "Engels, Nederlands"
@@ -796,7 +796,7 @@
   {
     "name": "Kunst, beleid en maatschappij", 
     "url": "/gw/kunst-beleid-en-maatschappij", 
-    "gebied": "Recht, economie en bestuur, Kunst, cultuur en geschiedenis", 
+    "gebied": "Law, economics and governance, Art, culture and history", 
     "startperiod": [
       1, 
       3
@@ -807,7 +807,7 @@
   {
     "name": "Kunstgeschiedenis", 
     "url": "/gw/kunstgeschiedenis-1", 
-    "gebied": "Kunst, cultuur en geschiedenis", 
+    "gebied": "Art, culture and history", 
     "startperiod": [
       1
     ], 
@@ -817,7 +817,7 @@
   {
     "name": "Kunstmatige intelligentie", 
     "url": "/gw/kunstmatige-intelligentie", 
-    "gebied": "Mens en gedrag, Informatietechnologie, Kunst, cultuur en geschiedenis", 
+    "gebied": "Social and behavioural sciences, Information technology, Art, culture and history", 
     "startperiod": [
       1, 
       2
@@ -828,7 +828,7 @@
   {
     "name": "Latijnse taal & cultuur in de Europese traditie", 
     "url": "/gw/latijnse-taal-cultuur-in-de-europese-traditie", 
-    "gebied": "Kunst, cultuur en geschiedenis, Talen en culturen, communicatie", 
+    "gebied": "Art, culture and history, Language, literature and communication", 
     "startperiod": [
       1
     ], 
@@ -838,7 +838,7 @@
   {
     "name": "Leerproblemen", 
     "url": "/fsw/leerproblemen", 
-    "gebied": "Mens en gedrag", 
+    "gebied": "Social and behavioural sciences", 
     "startperiod": [
       2
     ], 
@@ -848,7 +848,7 @@
   {
     "name": "Literature in conflict", 
     "url": "/gw/literature-in-conflict", 
-    "gebied": "Talen en culturen, communicatie", 
+    "gebied": "Language, literature and communication", 
     "startperiod": [], 
     "faculteit": "Geesteswetenschappen", 
     "taal": "Nederlands"
@@ -856,7 +856,7 @@
   {
     "name": "Literatuur en levensbeschouwing", 
     "url": "/gw/literatuur-en-levensbeschouwing", 
-    "gebied": "Kunst, cultuur en geschiedenis, Talen en culturen, communicatie", 
+    "gebied": "Art, culture and history, Language, literature and communication", 
     "startperiod": [
       1
     ], 
@@ -866,7 +866,7 @@
   {
     "name": "Literatuurwetenschap", 
     "url": "/gw/literatuurwetenschap-0", 
-    "gebied": "Kunst, cultuur en geschiedenis, Talen en culturen, communicatie", 
+    "gebied": "Art, culture and history, Language, literature and communication", 
     "startperiod": [], 
     "faculteit": "Geesteswetenschappen", 
     "taal": "Nederlands"
@@ -874,7 +874,7 @@
   {
     "name": "Logopediewetenschap", 
     "url": "/gw/logopediewetenschap", 
-    "gebied": "Talen en culturen, communicatie", 
+    "gebied": "Language, literature and communication", 
     "startperiod": [
       1
     ], 
@@ -884,7 +884,7 @@
   {
     "name": "Maatschappelijke opvoedingsvraagstukken", 
     "url": "/fsw/maatschappelijke-opvoedingsvraagstukken", 
-    "gebied": "Mens en gedrag", 
+    "gebied": "Social and behavioural sciences", 
     "startperiod": [
       1
     ], 
@@ -894,7 +894,7 @@
   {
     "name": "Media en cultuur", 
     "url": "/gw/mnc", 
-    "gebied": "Kunst, cultuur en geschiedenis, Talen en culturen, communicatie", 
+    "gebied": "Art, culture and history, Language, literature and communication", 
     "startperiod": [
       1, 
       2, 
@@ -907,7 +907,7 @@
   {
     "name": "Meteorologie, fysische oceanografie en klimaat", 
     "url": "/beta/natuur-en-sterrenkunde/meteorologie-fysische-oceanografie-en-klimaat", 
-    "gebied": "Aarde en milieu", 
+    "gebied": "Earth and sustainability", 
     "startperiod": [
       1
     ], 
@@ -917,7 +917,7 @@
   {
     "name": "Methods and Statistics in the Social and Behavioural Sciences (methoden en technieken)", 
     "url": "/en/fss/methods-and-statistics-in-the-social-and-behavioural-sciences-methoden-en-technieken", 
-    "gebied": "Mens en gedrag", 
+    "gebied": "Social and behavioural sciences", 
     "startperiod": [
       1
     ], 
@@ -927,7 +927,7 @@
   {
     "name": "Middeleeuwen", 
     "url": "/gw/middeleeuwen", 
-    "gebied": "Kunst, cultuur en geschiedenis, Talen en culturen, communicatie, Religie, filosofie en ethiek", 
+    "gebied": "Art, culture and history, Language, literature and communication, Religion, philosophy and ethics", 
     "startperiod": [
       1
     ], 
@@ -937,7 +937,7 @@
   {
     "name": "Milieu-maatschappijwetenschappen", 
     "url": "/geo/milieu-maatschappijwetenschappen-0", 
-    "gebied": "Aarde en milieu", 
+    "gebied": "Earth and sustainability", 
     "startperiod": [
       1
     ], 
@@ -947,7 +947,7 @@
   {
     "name": "Milieu-natuurwetenschappen", 
     "url": "/geo/milieu-natuurwetenschappen-0", 
-    "gebied": "Aarde en milieu", 
+    "gebied": "Earth and sustainability", 
     "startperiod": [
       1
     ], 
@@ -957,7 +957,7 @@
   {
     "name": "Multiculturele samenleving", 
     "url": "/fsw/multiculturele-samenleving", 
-    "gebied": "Mens en gedrag", 
+    "gebied": "Social and behavioural sciences", 
     "startperiod": [
       1
     ], 
@@ -967,7 +967,7 @@
   {
     "name": "Muziekwetenschap", 
     "url": "/gw/muziekwetenschap-1", 
-    "gebied": "Kunst, cultuur en geschiedenis", 
+    "gebied": "Art, culture and history", 
     "startperiod": [
       1, 
       2, 
@@ -990,7 +990,7 @@
   {
     "name": "Nationale Geo-informatie minor", 
     "url": "/geo/sgpl/nationale-geo-informatie-minor", 
-    "gebied": "Aarde en milieu", 
+    "gebied": "Earth and sustainability", 
     "startperiod": [
       1
     ], 
@@ -1013,7 +1013,7 @@
   {
     "name": "Natuurkunde van de vaste aarde (geofysica)", 
     "url": "/geo/aw/natuurkunde-van-de-vaste-aarde-geofysica", 
-    "gebied": "Aarde en milieu", 
+    "gebied": "Earth and sustainability", 
     "startperiod": [
       1, 
       2, 
@@ -1026,7 +1026,7 @@
   {
     "name": "Nederlandse cultuur", 
     "url": "/gw/nederlandse-cultuur", 
-    "gebied": "Talen en culturen, communicatie", 
+    "gebied": "Language, literature and communication", 
     "startperiod": [], 
     "faculteit": "Geesteswetenschappen", 
     "taal": "Nederlands"
@@ -1034,7 +1034,7 @@
   {
     "name": "Nederlandse taal en cultuur", 
     "url": "/gw/nederlandse-taal-en-cultuur-1", 
-    "gebied": "Kunst, cultuur en geschiedenis, Talen en culturen, communicatie", 
+    "gebied": "Art, culture and history, Language, literature and communication", 
     "startperiod": [
       1
     ], 
@@ -1044,7 +1044,7 @@
   {
     "name": "Onderwijskunde", 
     "url": "/fsw/onderwijskunde-0", 
-    "gebied": "Mens en gedrag", 
+    "gebied": "Social and behavioural sciences", 
     "startperiod": [
       1
     ], 
@@ -1054,7 +1054,7 @@
   {
     "name": "Organisatie en informatie voor HBO-studenten", 
     "url": "/beta/informatiekunde/organisatie-en-informatie-voor-hbo-studenten", 
-    "gebied": "Informatietechnologie", 
+    "gebied": "Information technology", 
     "startperiod": [
       1
     ], 
@@ -1064,7 +1064,7 @@
   {
     "name": "Orthopedagogiek", 
     "url": "/fsw/orthopedagogiek-0", 
-    "gebied": "Mens en gedrag", 
+    "gebied": "Social and behavioural sciences", 
     "startperiod": [
       1
     ], 
@@ -1074,7 +1074,7 @@
   {
     "name": "Persoonlijkheid en relaties", 
     "url": "/fsw/persoonlijkheid-en-relaties", 
-    "gebied": "Mens en gedrag", 
+    "gebied": "Social and behavioural sciences", 
     "startperiod": [
       2
     ], 
@@ -1084,7 +1084,7 @@
   {
     "name": "Planologie", 
     "url": "/geo/sgpl/planologie", 
-    "gebied": "Aarde en milieu", 
+    "gebied": "Earth and sustainability", 
     "startperiod": [
       1, 
       2, 
@@ -1097,7 +1097,7 @@
   {
     "name": "Politiek tussen nationale staat en mondiale samenleving", 
     "url": "/gw/politiek-tussen-nationale-staat-en-mondiale-samenleving", 
-    "gebied": "Recht, economie en bestuur, Kunst, cultuur en geschiedenis, Religie, filosofie en ethiek", 
+    "gebied": "Law, economics and governance, Art, culture and history, Religion, philosophy and ethics", 
     "startperiod": [
       1
     ], 
@@ -1107,7 +1107,7 @@
   {
     "name": "Postcolonial studies", 
     "url": "/en/node/351/postcolonial-studies", 
-    "gebied": "Kunst, cultuur en geschiedenis", 
+    "gebied": "Art, culture and history", 
     "startperiod": [
       1, 
       3
@@ -1118,7 +1118,7 @@
   {
     "name": "Psychosociale problemen", 
     "url": "/fsw/psychosociale-problemen", 
-    "gebied": "Mens en gedrag", 
+    "gebied": "Social and behavioural sciences", 
     "startperiod": [
       1
     ], 
@@ -1128,7 +1128,7 @@
   {
     "name": "Religie in het publieke domein", 
     "url": "/gw/religie-in-het-publieke-domein", 
-    "gebied": "Religie, filosofie en ethiek", 
+    "gebied": "Religion, philosophy and ethics", 
     "startperiod": [
       1
     ], 
@@ -1138,7 +1138,7 @@
   {
     "name": "Religiestudies", 
     "url": "/gw/religiestudies-0", 
-    "gebied": "Kunst, cultuur en geschiedenis, Religie, filosofie en ethiek", 
+    "gebied": "Art, culture and history, Religion, philosophy and ethics", 
     "startperiod": [], 
     "faculteit": "Geesteswetenschappen", 
     "taal": ""
@@ -1146,7 +1146,7 @@
   {
     "name": "Research en development", 
     "url": "/fsw/research-en-development", 
-    "gebied": "Mens en gedrag", 
+    "gebied": "Social and behavioural sciences", 
     "startperiod": [], 
     "faculteit": "Sociale Wetenschappen", 
     "taal": "Nederlands"
@@ -1154,7 +1154,7 @@
   {
     "name": "Sociaal Ondernemerschap", 
     "url": "/rebo/sociaal-ondernemerschap", 
-    "gebied": "Recht, economie en bestuur", 
+    "gebied": "Law, economics and governance", 
     "startperiod": [
       1, 
       2, 
@@ -1167,7 +1167,7 @@
   {
     "name": "Sociaalwetenschappelijk onderzoek", 
     "url": "/fsw/sociaalwetenschappelijk-onderzoek", 
-    "gebied": "Mens en gedrag", 
+    "gebied": "Social and behavioural sciences", 
     "startperiod": [
       2
     ], 
@@ -1177,7 +1177,7 @@
   {
     "name": "Social Neuroscience", 
     "url": "/en/fss/social-neuroscience", 
-    "gebied": "Mens en gedrag", 
+    "gebied": "Social and behavioural sciences", 
     "startperiod": [
       1
     ], 
@@ -1197,7 +1197,7 @@
   {
     "name": "Sociale geografie", 
     "url": "/geo/sgpl/sociale-geografie", 
-    "gebied": "Aarde en milieu", 
+    "gebied": "Earth and sustainability", 
     "startperiod": [
       1, 
       2, 
@@ -1220,7 +1220,7 @@
   {
     "name": "Sociology: Contemporary Social Problems ", 
     "url": "/fsw/sociology-contemporary-social-problems", 
-    "gebied": "Mens en gedrag", 
+    "gebied": "Social and behavioural sciences", 
     "startperiod": [], 
     "faculteit": "Sociale Wetenschappen", 
     "taal": "Engels, Nederlands"
@@ -1228,7 +1228,7 @@
   {
     "name": "Solidariteit en sociaal kapitaal", 
     "url": "/fsw/solidariteit-en-sociaal-kapitaal", 
-    "gebied": "Mens en gedrag", 
+    "gebied": "Social and behavioural sciences", 
     "startperiod": [
       1
     ], 
@@ -1238,7 +1238,7 @@
   {
     "name": "Spaanse taal en cultuur", 
     "url": "/gw/spaanse-taal-en-cultuur-0", 
-    "gebied": "Talen en culturen, communicatie", 
+    "gebied": "Language, literature and communication", 
     "startperiod": [], 
     "faculteit": "Geesteswetenschappen", 
     "taal": "Nederlands"
@@ -1246,7 +1246,7 @@
   {
     "name": "Sport, pedagogiek en beleid", 
     "url": "/fsw/sport-pedagogiek-en-beleid", 
-    "gebied": "Mens en gedrag", 
+    "gebied": "Social and behavioural sciences", 
     "startperiod": [
       1
     ], 
@@ -1256,7 +1256,7 @@
   {
     "name": "Stadsgeografie", 
     "url": "/geo/sgpl/stadsgeografie", 
-    "gebied": "Aarde en milieu", 
+    "gebied": "Earth and sustainability", 
     "startperiod": [
       1, 
       2, 
@@ -1269,7 +1269,7 @@
   {
     "name": "Structuurbiologie", 
     "url": "/beta/biologie/structuurbiologie", 
-    "gebied": "Mens, dier en gezondheid", 
+    "gebied": "Health and life sciences", 
     "startperiod": [
       1, 
       2, 
@@ -1282,7 +1282,7 @@
   {
     "name": "Sustainable Energy", 
     "url": "/geo/sustainable-energy", 
-    "gebied": "Aarde en milieu", 
+    "gebied": "Earth and sustainability", 
     "startperiod": [
       1, 
       2
@@ -1293,7 +1293,7 @@
   {
     "name": "Taalontwikkeling", 
     "url": "/gw/taalontwikkeling", 
-    "gebied": "Talen en culturen, communicatie", 
+    "gebied": "Language, literature and communication", 
     "startperiod": [
       1
     ], 
@@ -1303,7 +1303,7 @@
   {
     "name": "Taalwetenschap", 
     "url": "/gw/taalwetenschap-0", 
-    "gebied": "Talen en culturen, communicatie", 
+    "gebied": "Language, literature and communication", 
     "startperiod": [
       1
     ], 
@@ -1313,7 +1313,7 @@
   {
     "name": "Theorie van het recht ", 
     "url": "/rebo/theorie-van-het-recht", 
-    "gebied": "Recht, economie en bestuur", 
+    "gebied": "Law, economics and governance", 
     "startperiod": [
       1
     ], 
@@ -1323,7 +1323,7 @@
   {
     "name": "Wat is de mens?", 
     "url": "/gw/wat-is-de-mens", 
-    "gebied": "Kunst, cultuur en geschiedenis, Religie, filosofie en ethiek", 
+    "gebied": "Art, culture and history, Religion, philosophy and ethics", 
     "startperiod": [
       1, 
       2
@@ -1334,7 +1334,7 @@
   {
     "name": "Water, Climate and Ecosystems", 
     "url": "/en/geo/water-climate-and-ecosystems", 
-    "gebied": "Aarde en milieu, Natuur", 
+    "gebied": "Earth and sustainability, Nature", 
     "startperiod": [
       1, 
       2, 
@@ -1346,7 +1346,7 @@
   {
     "name": "Wetenschapsgeschiedenis", 
     "url": "/gw/wetenschapsgeschiedenis", 
-    "gebied": "Kunst, cultuur en geschiedenis, Religie, filosofie en ethiek", 
+    "gebied": "Art, culture and history, Religion, philosophy and ethics", 
     "startperiod": [
       1
     ], 

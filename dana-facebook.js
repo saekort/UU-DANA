@@ -24,6 +24,18 @@ const path = require('path');
 
 const serve = serveStatic('public', {'index': ['index.html']});
 
+const firstEntityValue = (entities, entity) => {
+  const val = entities && entities[entity] &&
+    Array.isArray(entities[entity]) &&
+    entities[entity].length > 0 &&
+    entities[entity][0].value
+  ;
+  if (!val) {
+    return null;
+  }
+  return typeof val === 'object' ? val.value : val;
+};
+
 let Wit = null;
 let log = null;
 try {
@@ -289,6 +301,26 @@ io.on('connection', function (socket) {
       const {text, quickreplies} = response;
       //console.log('@'+text);
       socket.emit('msg', { 'message' : text });
+    },
+    getListofTopicAreas({context, entities}) {
+      var minordb = require('./minordb');
+      var gebieden = minordb.getAreas();
+      var gstr = gebieden.join('; ');
+      context.gebieden = gstr;
+      return context;
+    },
+    findMinorsinTopicArea({context, entities}) {
+      //console.log(entities);
+      var minordb = require('./minordb');
+      var area = firstEntityValue(entities, 'topicArea');
+      var mlist = minordb.findMinors({'gebied': area});
+      var resp = [];
+      for(var i = 0; i < mlist.length; i++)
+      {
+         resp.push( '#' + i + ' ' + minordb.getMinor(i)['name']); 
+      }
+      context.minors = resp.join('; ');
+      return context;
     },
     countminors({context, entities}) {
       var database = require(process.cwd() + '/minor_data/database.json');
