@@ -322,12 +322,17 @@ io.on('connection', function (socket) {
       context.minors = resp.join('; ');
       return context;
     },
-    countminors({context, entities}) {
-      var database = require(process.cwd() + '/minor_data/database.json');
-      context.aantalminors = database.length;
-      return(context);
-    },
     getMinorInfo({context, entities}) {
+      console.log('====');
+      console.log(entities);
+      var minordb = require('./minordb');
+      var num = firstEntityValue(entities, 'number');
+      var minor = minordb.getMinor(num);
+      context.minor_type = minor['name'];
+      context.minor_url = minordb.baseUrl() + minor['url'];
+      return context;
+    },
+    getMinorInfoOld({context, entities}) {
       var baseUrl = 'https://students.uu.nl';
       console.log(entities);
       var minor = firstEntityValue(entities, 'minor');

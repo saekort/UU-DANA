@@ -71,6 +71,8 @@ module.exports = {
     return ids;
   },
   getMinor: function(idx) {
+    if(idx < 0) return {};
+    if(idx >= database.length) return {};
     return database[idx];
   },
   getAreas: function() {
@@ -87,5 +89,9 @@ module.exports = {
       ,'Religion, philosophy and ethics '
       ];
     return gebieden;
+  },
+  baseUrl: function() {
+    return 'https://students.uu.nl';
   }
+
 }
