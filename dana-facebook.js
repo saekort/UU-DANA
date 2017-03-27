@@ -322,8 +322,7 @@ io.on('connection', function (socket) {
       context.minors = resp.join('; ');
       return context;
     },
-    getMinorInfo({context, entities}) {
-      console.log('====');
+    getMinorId({context, entities}) {
       console.log(entities);
       var minordb = require('./minordb');
       var num = firstEntityValue(entities, 'number');
