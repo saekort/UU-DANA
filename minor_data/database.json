@@ -7,7 +7,7 @@
       2, 
       3
     ], 
-    "faculteit": "Geowetenschappen", 
+    "faculteit": "Geowetenschappen (Geosciences)", 
     "taal": "Nederlands"
   }, 
   {
@@ -17,7 +17,7 @@
     "startperiod": [
       1
     ], 
-    "faculteit": "Geowetenschappen", 
+    "faculteit": "Geowetenschappen (Geosciences)", 
     "taal": "Nederlands"
   }, 
   {
@@ -27,7 +27,7 @@
     "startperiod": [
       2
     ], 
-    "faculteit": "Geowetenschappen", 
+    "faculteit": "Geowetenschappen (Geosciences)", 
     "taal": "Nederlands"
   }, 
   {
@@ -35,7 +35,7 @@
     "url": "/dgk/addiction", 
     "gebied": "Health and life sciences, Social and behavioural sciences", 
     "startperiod": [], 
-    "faculteit": "Diergeneeskunde", 
+    "faculteit": "Diergeneeskunde (Veterinary Medicine)", 
     "taal": "Nederlands"
   }, 
   {
@@ -45,7 +45,7 @@
     "startperiod": [
       1
     ], 
-    "faculteit": "Sociale Wetenschappen", 
+    "faculteit": "Sociale Wetenschappen (Social and Behavioural Sciences)", 
     "taal": "Nederlands"
   }, 
   {
@@ -55,7 +55,7 @@
     "startperiod": [
       1
     ], 
-    "faculteit": "Geesteswetenschappen", 
+    "faculteit": "Geesteswetenschappen (Humanities)", 
     "taal": ""
   }, 
   {
@@ -65,7 +65,7 @@
     "startperiod": [
       1
     ], 
-    "faculteit": "Geesteswetenschappen", 
+    "faculteit": "Geesteswetenschappen (Humanities)", 
     "taal": ""
   }, 
   {
@@ -75,7 +75,7 @@
     "startperiod": [
       1
     ], 
-    "faculteit": "Sociale Wetenschappen", 
+    "faculteit": "Sociale Wetenschappen (Social and Behavioural Sciences)", 
     "taal": "Nederlands"
   }, 
   {
@@ -85,7 +85,7 @@
     "startperiod": [
       1
     ], 
-    "faculteit": "Sociale Wetenschappen", 
+    "faculteit": "Sociale Wetenschappen (Social and Behavioural Sciences)", 
     "taal": "Nederlands"
   }, 
   {
@@ -95,7 +95,7 @@
     "startperiod": [
       1
     ], 
-    "faculteit": "Geesteswetenschappen", 
+    "faculteit": "Geesteswetenschappen (Humanities)", 
     "taal": "Nederlands"
   }, 
   {
@@ -105,7 +105,7 @@
     "startperiod": [
       3
     ], 
-    "faculteit": "Geesteswetenschappen", 
+    "faculteit": "Geesteswetenschappen (Humanities)", 
     "taal": "Engels"
   }, 
   {
@@ -115,7 +115,7 @@
     "startperiod": [
       3
     ], 
-    "faculteit": "Geesteswetenschappen", 
+    "faculteit": "Geesteswetenschappen (Humanities)", 
     "taal": "Nederlands"
   }, 
   {
@@ -125,7 +125,7 @@
     "startperiod": [
       1
     ], 
-    "faculteit": "Sociale Wetenschappen", 
+    "faculteit": "Sociale Wetenschappen (Social and Behavioural Sciences)", 
     "taal": "Nederlands"
   }, 
   {
@@ -138,7 +138,7 @@
       3, 
       4
     ], 
-    "faculteit": "Recht, Economie, Bestuur en Organisatie", 
+    "faculteit": "Recht, Economie, Bestuur en Organisatie (Law, Economics and Governance)", 
     "taal": "Nederlands"
   }, 
   {
@@ -151,7 +151,7 @@
       3, 
       4
     ], 
-    "faculteit": "B\u00e8tawetenschappen", 
+    "faculteit": "B\u00e8tawetenschappen (Science)", 
     "taal": "Nederlands"
   }, 
   {
@@ -159,7 +159,7 @@
     "url": "/gw/brains-bodies-cognitie-en-emotie-in-de-geesteswetenschappen", 
     "gebied": "Social and behavioural sciences, Art, culture and history, Language, literature and communication", 
     "startperiod": [], 
-    "faculteit": "Geesteswetenschappen", 
+    "faculteit": "Geesteswetenschappen (Humanities)", 
     "taal": "Nederlands"
   }, 
   {
@@ -169,7 +169,7 @@
     "startperiod": [
       1
     ], 
-    "faculteit": "Sociale Wetenschappen", 
+    "faculteit": "Sociale Wetenschappen (Social and Behavioural Sciences)", 
     "taal": "Nederlands"
   }, 
   {
@@ -181,7 +181,7 @@
       3, 
       4
     ], 
-    "faculteit": "Recht, Economie, Bestuur en Organisatie", 
+    "faculteit": "Recht, Economie, Bestuur en Organisatie (Law, Economics and Governance)", 
     "taal": "Engels"
   }, 
   {
@@ -191,7 +191,7 @@
     "startperiod": [
       1
     ], 
-    "faculteit": "Sociale Wetenschappen", 
+    "faculteit": "Sociale Wetenschappen (Social and Behavioural Sciences)", 
     "taal": "Nederlands"
   }, 
   {
@@ -201,7 +201,7 @@
     "startperiod": [
       1
     ], 
-    "faculteit": "Geesteswetenschappen", 
+    "faculteit": "Geesteswetenschappen (Humanities)", 
     "taal": "Nederlands"
   }, 
   {
@@ -214,7 +214,7 @@
       3, 
       4
     ], 
-    "faculteit": "Geesteswetenschappen", 
+    "faculteit": "Geesteswetenschappen (Humanities)", 
     "taal": "Engels"
   }, 
   {
@@ -225,7 +225,7 @@
       1, 
       3
     ], 
-    "faculteit": "B\u00e8tawetenschappen", 
+    "faculteit": "B\u00e8tawetenschappen (Science)", 
     "taal": "Nederlands"
   }, 
   {
@@ -235,7 +235,7 @@
     "startperiod": [
       1
     ], 
-    "faculteit": "Geesteswetenschappen", 
+    "faculteit": "Geesteswetenschappen (Humanities)", 
     "taal": "Engels"
   }, 
   {
@@ -248,7 +248,7 @@
       3, 
       4
     ], 
-    "faculteit": "Geesteswetenschappen", 
+    "faculteit": "Geesteswetenschappen (Humanities)", 
     "taal": "Engels"
   }, 
   {
@@ -258,7 +258,7 @@
     "startperiod": [
       1
     ], 
-    "faculteit": "Recht, Economie, Bestuur en Organisatie", 
+    "faculteit": "Recht, Economie, Bestuur en Organisatie (Law, Economics and Governance)", 
     "taal": "Nederlands"
   }, 
   {
@@ -268,7 +268,7 @@
     "startperiod": [
       1
     ], 
-    "faculteit": "Recht, Economie, Bestuur en Organisatie", 
+    "faculteit": "Recht, Economie, Bestuur en Organisatie (Law, Economics and Governance)", 
     "taal": "Nederlands"
   }, 
   {
@@ -279,7 +279,7 @@
       1, 
       2
     ], 
-    "faculteit": "Sociale Wetenschappen", 
+    "faculteit": "Sociale Wetenschappen (Social and Behavioural Sciences)", 
     "taal": "Nederlands"
   }, 
   {
@@ -287,7 +287,7 @@
     "url": "/fsw/cultuur-communicatie-en-mediastudies", 
     "gebied": "Social and behavioural sciences", 
     "startperiod": [], 
-    "faculteit": "Sociale Wetenschappen", 
+    "faculteit": "Sociale Wetenschappen (Social and Behavioural Sciences)", 
     "taal": "Nederlands"
   }, 
   {
@@ -297,7 +297,7 @@
     "startperiod": [
       1
     ], 
-    "faculteit": "Geesteswetenschappen", 
+    "faculteit": "Geesteswetenschappen (Humanities)", 
     "taal": "Nederlands"
   }, 
   {
@@ -305,7 +305,7 @@
     "url": "/gw/de-middellandse-zee-brug-en-kloof", 
     "gebied": "Art, culture and history, Language, literature and communication, Religion, philosophy and ethics", 
     "startperiod": [], 
-    "faculteit": "Geesteswetenschappen", 
+    "faculteit": "Geesteswetenschappen (Humanities)", 
     "taal": "Nederlands"
   }, 
   {
@@ -315,7 +315,7 @@
     "startperiod": [
       1
     ], 
-    "faculteit": "Geesteswetenschappen", 
+    "faculteit": "Geesteswetenschappen (Humanities)", 
     "taal": "Nederlands"
   }, 
   {
@@ -328,7 +328,7 @@
       3, 
       4
     ], 
-    "faculteit": "Geowetenschappen", 
+    "faculteit": "Geowetenschappen (Geosciences)", 
     "taal": ""
   }, 
   {
@@ -341,7 +341,7 @@
       3, 
       4
     ], 
-    "faculteit": "Geowetenschappen", 
+    "faculteit": "Geowetenschappen (Geosciences)", 
     "taal": "Nederlands"
   }, 
   {
@@ -351,7 +351,7 @@
     "startperiod": [
       1
     ], 
-    "faculteit": "Geesteswetenschappen", 
+    "faculteit": "Geesteswetenschappen (Humanities)", 
     "taal": "Nederlands"
   }, 
   {
@@ -361,7 +361,7 @@
     "startperiod": [
       1
     ], 
-    "faculteit": "Geesteswetenschappen", 
+    "faculteit": "Geesteswetenschappen (Humanities)", 
     "taal": "Nederlands"
   }, 
   {
@@ -374,7 +374,7 @@
       3, 
       4
     ], 
-    "faculteit": "Geowetenschappen", 
+    "faculteit": "Geowetenschappen (Geosciences)", 
     "taal": "Engels, Nederlands"
   }, 
   {
@@ -386,7 +386,7 @@
       2, 
       3
     ], 
-    "faculteit": "Geowetenschappen", 
+    "faculteit": "Geowetenschappen (Geosciences)", 
     "taal": "Nederlands"
   }, 
   {
@@ -399,7 +399,7 @@
       3, 
       4
     ], 
-    "faculteit": "Recht, Economie, Bestuur en Organisatie", 
+    "faculteit": "Recht, Economie, Bestuur en Organisatie (Law, Economics and Governance)", 
     "taal": "Engels"
   }, 
   {
@@ -432,7 +432,7 @@
     "startperiod": [
       3
     ], 
-    "faculteit": "B\u00e8tawetenschappen", 
+    "faculteit": "B\u00e8tawetenschappen (Science)", 
     "taal": ""
   }, 
   {
@@ -452,7 +452,7 @@
     "startperiod": [
       1
     ], 
-    "faculteit": "Geesteswetenschappen", 
+    "faculteit": "Geesteswetenschappen (Humanities)", 
     "taal": "Engels"
   }, 
   {
@@ -465,7 +465,7 @@
       3, 
       4
     ], 
-    "faculteit": "Recht, Economie, Bestuur en Organisatie", 
+    "faculteit": "Recht, Economie, Bestuur en Organisatie (Law, Economics and Governance)", 
     "taal": "Engels"
   }, 
   {
@@ -478,7 +478,7 @@
       3, 
       4
     ], 
-    "faculteit": "Geowetenschappen", 
+    "faculteit": "Geowetenschappen (Geosciences)", 
     "taal": "Engels, Nederlands"
   }, 
   {
@@ -488,7 +488,7 @@
     "startperiod": [
       1
     ], 
-    "faculteit": "Geesteswetenschappen", 
+    "faculteit": "Geesteswetenschappen (Humanities)", 
     "taal": "Nederlands"
   }, 
   {
@@ -496,7 +496,7 @@
     "url": "/en/node/351/ethics-in-modern-society", 
     "gebied": "", 
     "startperiod": [], 
-    "faculteit": "Geesteswetenschappen", 
+    "faculteit": "Geesteswetenschappen (Humanities)", 
     "taal": "Engels"
   }, 
   {
@@ -506,7 +506,7 @@
     "startperiod": [
       1
     ], 
-    "faculteit": "Recht, Economie, Bestuur en Organisatie", 
+    "faculteit": "Recht, Economie, Bestuur en Organisatie (Law, Economics and Governance)", 
     "taal": "Engels"
   }, 
   {
@@ -516,7 +516,7 @@
     "startperiod": [
       1
     ], 
-    "faculteit": "Geesteswetenschappen", 
+    "faculteit": "Geesteswetenschappen (Humanities)", 
     "taal": "Nederlands"
   }, 
   {
@@ -527,7 +527,7 @@
       1, 
       3
     ], 
-    "faculteit": "Geesteswetenschappen", 
+    "faculteit": "Geesteswetenschappen (Humanities)", 
     "taal": "Engels, Nederlands"
   }, 
   {
@@ -537,7 +537,7 @@
     "startperiod": [
       2
     ], 
-    "faculteit": "Sociale Wetenschappen", 
+    "faculteit": "Sociale Wetenschappen (Social and Behavioural Sciences)", 
     "taal": "Nederlands"
   }, 
   {
@@ -550,7 +550,7 @@
       3, 
       4
     ], 
-    "faculteit": "Geesteswetenschappen", 
+    "faculteit": "Geesteswetenschappen (Humanities)", 
     "taal": "Engels"
   }, 
   {
@@ -558,7 +558,7 @@
     "url": "/beta/farmacie-b/geneesmiddelonderzoek", 
     "gebied": "Health and life sciences", 
     "startperiod": [], 
-    "faculteit": "B\u00e8tawetenschappen", 
+    "faculteit": "B\u00e8tawetenschappen (Science)", 
     "taal": "Nederlands"
   }, 
   {
@@ -568,7 +568,7 @@
     "startperiod": [
       1
     ], 
-    "faculteit": "Geowetenschappen", 
+    "faculteit": "Geowetenschappen (Geosciences)", 
     "taal": "Nederlands"
   }, 
   {
@@ -580,7 +580,7 @@
       2, 
       3
     ], 
-    "faculteit": "Geesteswetenschappen", 
+    "faculteit": "Geesteswetenschappen (Humanities)", 
     "taal": "Nederlands"
   }, 
   {
@@ -590,7 +590,7 @@
     "startperiod": [
       2
     ], 
-    "faculteit": "B\u00e8tawetenschappen", 
+    "faculteit": "B\u00e8tawetenschappen (Science)", 
     "taal": "Nederlands"
   }, 
   {
@@ -600,7 +600,7 @@
     "startperiod": [
       1
     ], 
-    "faculteit": "Geesteswetenschappen", 
+    "faculteit": "Geesteswetenschappen (Humanities)", 
     "taal": "Nederlands"
   }, 
   {
@@ -610,7 +610,7 @@
     "startperiod": [
       3
     ], 
-    "faculteit": "Geesteswetenschappen", 
+    "faculteit": "Geesteswetenschappen (Humanities)", 
     "taal": "Engels"
   }, 
   {
@@ -623,7 +623,7 @@
       3, 
       4
     ], 
-    "faculteit": "Geowetenschappen", 
+    "faculteit": "Geowetenschappen (Geosciences)", 
     "taal": "Engels, Nederlands"
   }, 
   {
@@ -636,7 +636,7 @@
       3, 
       4
     ], 
-    "faculteit": "Geowetenschappen", 
+    "faculteit": "Geowetenschappen (Geosciences)", 
     "taal": "Nederlands"
   }, 
   {
@@ -646,7 +646,7 @@
     "startperiod": [
       1
     ], 
-    "faculteit": "Geesteswetenschappen", 
+    "faculteit": "Geesteswetenschappen (Humanities)", 
     "taal": "Nederlands"
   }, 
   {
@@ -656,7 +656,7 @@
     "startperiod": [
       1
     ], 
-    "faculteit": "Geesteswetenschappen", 
+    "faculteit": "Geesteswetenschappen (Humanities)", 
     "taal": "Nederlands"
   }, 
   {
@@ -664,7 +664,7 @@
     "url": "/gw/grote-werken-uit-de-literatuur", 
     "gebied": "Art, culture and history, Language, literature and communication", 
     "startperiod": [], 
-    "faculteit": "Geesteswetenschappen", 
+    "faculteit": "Geesteswetenschappen (Humanities)", 
     "taal": "Nederlands"
   }, 
   {
@@ -674,7 +674,7 @@
     "startperiod": [
       2
     ], 
-    "faculteit": "Sociale Wetenschappen", 
+    "faculteit": "Sociale Wetenschappen (Social and Behavioural Sciences)", 
     "taal": "Engels"
   }, 
   {
@@ -685,27 +685,27 @@
       1, 
       2
     ], 
-    "faculteit": "Geesteswetenschappen", 
+    "faculteit": "Geesteswetenschappen (Humanities)", 
     "taal": "Nederlands"
   }, 
   {
-    "name": "Informatica", 
+    "name": "Informatica (Computer Science)", 
     "url": "/beta/informatica/informatica", 
     "gebied": "Information technology", 
     "startperiod": [
       1
     ], 
-    "faculteit": "B\u00e8tawetenschappen", 
+    "faculteit": "B\u00e8tawetenschappen (Science)", 
     "taal": "Nederlands"
   }, 
   {
-    "name": "Informatica voor hbo-studenten", 
+    "name": "Informatica voor hbo-studenten (Computer Science)", 
     "url": "/beta/informatica/informatica-voor-hbo-studenten", 
     "gebied": "Information technology", 
     "startperiod": [
       1
     ], 
-    "faculteit": "B\u00e8tawetenschappen", 
+    "faculteit": "B\u00e8tawetenschappen (Science)", 
     "taal": "Nederlands"
   }, 
   {
@@ -716,17 +716,17 @@
       1, 
       3
     ], 
-    "faculteit": "B\u00e8tawetenschappen", 
+    "faculteit": "B\u00e8tawetenschappen (Science)", 
     "taal": "Nederlands"
   }, 
   {
-    "name": "Inleiding in het recht ", 
+    "name": "Inleiding in het recht (law)", 
     "url": "/rebo/inleiding-in-het-recht", 
     "gebied": "Law, economics and governance", 
     "startperiod": [
       1
     ], 
-    "faculteit": "Recht, Economie, Bestuur en Organisatie", 
+    "faculteit": "Recht, Economie, Bestuur en Organisatie (Law, Economics and Governance)", 
     "taal": "Nederlands"
   }, 
   {
@@ -736,7 +736,7 @@
     "startperiod": [
       1
     ], 
-    "faculteit": "Geowetenschappen", 
+    "faculteit": "Geowetenschappen (Geosciences)", 
     "taal": "Engels, Nederlands"
   }, 
   {
@@ -746,7 +746,7 @@
     "startperiod": [
       1
     ], 
-    "faculteit": "Geesteswetenschappen", 
+    "faculteit": "Geesteswetenschappen (Humanities)", 
     "taal": "Nederlands"
   }, 
   {
@@ -754,15 +754,15 @@
     "url": "/gw/islam", 
     "gebied": "Language, literature and communication, Religion, philosophy and ethics", 
     "startperiod": [], 
-    "faculteit": "Geesteswetenschappen", 
+    "faculteit": "Geesteswetenschappen (Humanities)", 
     "taal": "Nederlands"
   }, 
   {
-    "name": "Italiaanse taal en cultuur", 
+    "name": "Italiaanse taal en cultuur (Italian)", 
     "url": "/gw/italiaanse-taal-en-cultuur-0", 
     "gebied": "Language, literature and communication", 
     "startperiod": [], 
-    "faculteit": "Geesteswetenschappen", 
+    "faculteit": "Geesteswetenschappen (Humanities)", 
     "taal": "Nederlands"
   }, 
   {
@@ -772,7 +772,7 @@
     "startperiod": [
       1
     ], 
-    "faculteit": "Sociale Wetenschappen", 
+    "faculteit": "Sociale Wetenschappen (Social and Behavioural Sciences)", 
     "taal": "Nederlands"
   }, 
   {
@@ -782,7 +782,7 @@
     "startperiod": [
       1
     ], 
-    "faculteit": "Sociale Wetenschappen", 
+    "faculteit": "Sociale Wetenschappen (Social and Behavioural Sciences)", 
     "taal": "Nederlands"
   }, 
   {
@@ -790,7 +790,7 @@
     "url": "/en/node/351/keltische-talen-en-cultuur", 
     "gebied": "Art, culture and history, Language, literature and communication", 
     "startperiod": [], 
-    "faculteit": "Geesteswetenschappen", 
+    "faculteit": "Geesteswetenschappen (Humanities)", 
     "taal": "Engels, Nederlands"
   }, 
   {
@@ -801,7 +801,7 @@
       1, 
       3
     ], 
-    "faculteit": "Geesteswetenschappen", 
+    "faculteit": "Geesteswetenschappen (Humanities)", 
     "taal": "Nederlands"
   }, 
   {
@@ -811,7 +811,7 @@
     "startperiod": [
       1
     ], 
-    "faculteit": "Geesteswetenschappen", 
+    "faculteit": "Geesteswetenschappen (Humanities)", 
     "taal": "Nederlands"
   }, 
   {
@@ -822,7 +822,7 @@
       1, 
       2
     ], 
-    "faculteit": "Geesteswetenschappen", 
+    "faculteit": "Geesteswetenschappen (Humanities)", 
     "taal": "Nederlands"
   }, 
   {
@@ -832,7 +832,7 @@
     "startperiod": [
       1
     ], 
-    "faculteit": "Geesteswetenschappen", 
+    "faculteit": "Geesteswetenschappen (Humanities)", 
     "taal": "Nederlands"
   }, 
   {
@@ -842,7 +842,7 @@
     "startperiod": [
       2
     ], 
-    "faculteit": "Sociale Wetenschappen", 
+    "faculteit": "Sociale Wetenschappen (Social and Behavioural Sciences)", 
     "taal": "Nederlands"
   }, 
   {
@@ -850,7 +850,7 @@
     "url": "/gw/literature-in-conflict", 
     "gebied": "Language, literature and communication", 
     "startperiod": [], 
-    "faculteit": "Geesteswetenschappen", 
+    "faculteit": "Geesteswetenschappen (Humanities)", 
     "taal": "Nederlands"
   }, 
   {
@@ -860,7 +860,7 @@
     "startperiod": [
       1
     ], 
-    "faculteit": "Geesteswetenschappen", 
+    "faculteit": "Geesteswetenschappen (Humanities)", 
     "taal": "Nederlands"
   }, 
   {
@@ -868,7 +868,7 @@
     "url": "/gw/literatuurwetenschap-0", 
     "gebied": "Art, culture and history, Language, literature and communication", 
     "startperiod": [], 
-    "faculteit": "Geesteswetenschappen", 
+    "faculteit": "Geesteswetenschappen (Humanities)", 
     "taal": "Nederlands"
   }, 
   {
@@ -878,7 +878,7 @@
     "startperiod": [
       1
     ], 
-    "faculteit": "Geesteswetenschappen", 
+    "faculteit": "Geesteswetenschappen (Humanities)", 
     "taal": "Nederlands"
   }, 
   {
@@ -888,7 +888,7 @@
     "startperiod": [
       1
     ], 
-    "faculteit": "Sociale Wetenschappen", 
+    "faculteit": "Sociale Wetenschappen (Social and Behavioural Sciences)", 
     "taal": "Nederlands"
   }, 
   {
@@ -901,7 +901,7 @@
       3, 
       4
     ], 
-    "faculteit": "Geesteswetenschappen", 
+    "faculteit": "Geesteswetenschappen (Humanities)", 
     "taal": "Nederlands"
   }, 
   {
@@ -911,7 +911,7 @@
     "startperiod": [
       1
     ], 
-    "faculteit": "B\u00e8tawetenschappen", 
+    "faculteit": "B\u00e8tawetenschappen (Science)", 
     "taal": "Nederlands"
   }, 
   {
@@ -921,7 +921,7 @@
     "startperiod": [
       1
     ], 
-    "faculteit": "Sociale Wetenschappen", 
+    "faculteit": "Sociale Wetenschappen (Social and Behavioural Sciences)", 
     "taal": "Engels"
   }, 
   {
@@ -931,7 +931,7 @@
     "startperiod": [
       1
     ], 
-    "faculteit": "Geesteswetenschappen", 
+    "faculteit": "Geesteswetenschappen (Humanities)", 
     "taal": "Nederlands"
   }, 
   {
@@ -941,7 +941,7 @@
     "startperiod": [
       1
     ], 
-    "faculteit": "Geowetenschappen", 
+    "faculteit": "Geowetenschappen (Geosciences)", 
     "taal": ""
   }, 
   {
@@ -951,7 +951,7 @@
     "startperiod": [
       1
     ], 
-    "faculteit": "Geowetenschappen", 
+    "faculteit": "Geowetenschappen (Geosciences)", 
     "taal": "Nederlands"
   }, 
   {
@@ -961,7 +961,7 @@
     "startperiod": [
       1
     ], 
-    "faculteit": "Sociale Wetenschappen", 
+    "faculteit": "Sociale Wetenschappen (Social and Behavioural Sciences)", 
     "taal": "Nederlands"
   }, 
   {
@@ -974,7 +974,7 @@
       3, 
       4
     ], 
-    "faculteit": "Geesteswetenschappen", 
+    "faculteit": "Geesteswetenschappen (Humanities)", 
     "taal": "Nederlands"
   }, 
   {
@@ -984,7 +984,7 @@
     "startperiod": [
       1
     ], 
-    "faculteit": "B\u00e8tawetenschappen", 
+    "faculteit": "B\u00e8tawetenschappen (Science)", 
     "taal": ""
   }, 
   {
@@ -994,7 +994,7 @@
     "startperiod": [
       1
     ], 
-    "faculteit": "Geowetenschappen", 
+    "faculteit": "Geowetenschappen (Geosciences)", 
     "taal": "Nederlands"
   }, 
   {
@@ -1007,7 +1007,7 @@
       3, 
       4
     ], 
-    "faculteit": "B\u00e8tawetenschappen", 
+    "faculteit": "B\u00e8tawetenschappen (Science)", 
     "taal": ""
   }, 
   {
@@ -1020,7 +1020,7 @@
       3, 
       4
     ], 
-    "faculteit": "Geowetenschappen", 
+    "faculteit": "Geowetenschappen (Geosciences)", 
     "taal": "Nederlands"
   }, 
   {
@@ -1028,7 +1028,7 @@
     "url": "/gw/nederlandse-cultuur", 
     "gebied": "Language, literature and communication", 
     "startperiod": [], 
-    "faculteit": "Geesteswetenschappen", 
+    "faculteit": "Geesteswetenschappen (Humanities)", 
     "taal": "Nederlands"
   }, 
   {
@@ -1038,7 +1038,7 @@
     "startperiod": [
       1
     ], 
-    "faculteit": "Geesteswetenschappen", 
+    "faculteit": "Geesteswetenschappen (Humanities)", 
     "taal": "Nederlands"
   }, 
   {
@@ -1048,7 +1048,7 @@
     "startperiod": [
       1
     ], 
-    "faculteit": "Sociale Wetenschappen", 
+    "faculteit": "Sociale Wetenschappen (Social and Behavioural Sciences)", 
     "taal": "Nederlands"
   }, 
   {
@@ -1058,7 +1058,7 @@
     "startperiod": [
       1
     ], 
-    "faculteit": "B\u00e8tawetenschappen", 
+    "faculteit": "B\u00e8tawetenschappen (Science)", 
     "taal": "Nederlands"
   }, 
   {
@@ -1068,7 +1068,7 @@
     "startperiod": [
       1
     ], 
-    "faculteit": "Sociale Wetenschappen", 
+    "faculteit": "Sociale Wetenschappen (Social and Behavioural Sciences)", 
     "taal": "Nederlands"
   }, 
   {
@@ -1078,7 +1078,7 @@
     "startperiod": [
       2
     ], 
-    "faculteit": "Sociale Wetenschappen", 
+    "faculteit": "Sociale Wetenschappen (Social and Behavioural Sciences)", 
     "taal": "Nederlands"
   }, 
   {
@@ -1091,7 +1091,7 @@
       3, 
       4
     ], 
-    "faculteit": "Geowetenschappen", 
+    "faculteit": "Geowetenschappen (Geosciences)", 
     "taal": "Nederlands"
   }, 
   {
@@ -1101,7 +1101,7 @@
     "startperiod": [
       1
     ], 
-    "faculteit": "Geesteswetenschappen", 
+    "faculteit": "Geesteswetenschappen (Humanities)", 
     "taal": "Nederlands"
   }, 
   {
@@ -1112,7 +1112,7 @@
       1, 
       3
     ], 
-    "faculteit": "Geesteswetenschappen", 
+    "faculteit": "Geesteswetenschappen (Humanities)", 
     "taal": "Engels"
   }, 
   {
@@ -1122,7 +1122,7 @@
     "startperiod": [
       1
     ], 
-    "faculteit": "Sociale Wetenschappen", 
+    "faculteit": "Sociale Wetenschappen (Social and Behavioural Sciences)", 
     "taal": "Nederlands"
   }, 
   {
@@ -1132,7 +1132,7 @@
     "startperiod": [
       1
     ], 
-    "faculteit": "Geesteswetenschappen", 
+    "faculteit": "Geesteswetenschappen (Humanities)", 
     "taal": "Nederlands"
   }, 
   {
@@ -1140,7 +1140,7 @@
     "url": "/gw/religiestudies-0", 
     "gebied": "Art, culture and history, Religion, philosophy and ethics", 
     "startperiod": [], 
-    "faculteit": "Geesteswetenschappen", 
+    "faculteit": "Geesteswetenschappen (Humanities)", 
     "taal": ""
   }, 
   {
@@ -1148,7 +1148,7 @@
     "url": "/fsw/research-en-development", 
     "gebied": "Social and behavioural sciences", 
     "startperiod": [], 
-    "faculteit": "Sociale Wetenschappen", 
+    "faculteit": "Sociale Wetenschappen (Social and Behavioural Sciences)", 
     "taal": "Nederlands"
   }, 
   {
@@ -1161,7 +1161,7 @@
       3, 
       4
     ], 
-    "faculteit": "Recht, Economie, Bestuur en Organisatie", 
+    "faculteit": "Recht, Economie, Bestuur en Organisatie (Law, Economics and Governance)", 
     "taal": "Nederlands"
   }, 
   {
@@ -1171,7 +1171,7 @@
     "startperiod": [
       2
     ], 
-    "faculteit": "Sociale Wetenschappen", 
+    "faculteit": "Sociale Wetenschappen (Social and Behavioural Sciences)", 
     "taal": "Nederlands"
   }, 
   {
@@ -1181,7 +1181,7 @@
     "startperiod": [
       1
     ], 
-    "faculteit": "Sociale Wetenschappen", 
+    "faculteit": "Sociale Wetenschappen (Social and Behavioural Sciences)", 
     "taal": "Engels"
   }, 
   {
@@ -1191,7 +1191,7 @@
     "startperiod": [
       3
     ], 
-    "faculteit": "Sociale Wetenschappen", 
+    "faculteit": "Sociale Wetenschappen (Social and Behavioural Sciences)", 
     "taal": "Engels"
   }, 
   {
@@ -1204,7 +1204,7 @@
       3, 
       4
     ], 
-    "faculteit": "Geowetenschappen", 
+    "faculteit": "Geowetenschappen (Geosciences)", 
     "taal": "Nederlands"
   }, 
   {
@@ -1214,7 +1214,7 @@
     "startperiod": [
       1
     ], 
-    "faculteit": "Sociale Wetenschappen", 
+    "faculteit": "Sociale Wetenschappen (Social and Behavioural Sciences)", 
     "taal": "Engels, Nederlands"
   }, 
   {
@@ -1222,7 +1222,7 @@
     "url": "/fsw/sociology-contemporary-social-problems", 
     "gebied": "Social and behavioural sciences", 
     "startperiod": [], 
-    "faculteit": "Sociale Wetenschappen", 
+    "faculteit": "Sociale Wetenschappen (Social and Behavioural Sciences)", 
     "taal": "Engels, Nederlands"
   }, 
   {
@@ -1232,7 +1232,7 @@
     "startperiod": [
       1
     ], 
-    "faculteit": "Sociale Wetenschappen", 
+    "faculteit": "Sociale Wetenschappen (Social and Behavioural Sciences)", 
     "taal": "Nederlands"
   }, 
   {
@@ -1240,7 +1240,7 @@
     "url": "/gw/spaanse-taal-en-cultuur-0", 
     "gebied": "Language, literature and communication", 
     "startperiod": [], 
-    "faculteit": "Geesteswetenschappen", 
+    "faculteit": "Geesteswetenschappen (Humanities)", 
     "taal": "Nederlands"
   }, 
   {
@@ -1250,7 +1250,7 @@
     "startperiod": [
       1
     ], 
-    "faculteit": "Sociale Wetenschappen", 
+    "faculteit": "Sociale Wetenschappen (Social and Behavioural Sciences)", 
     "taal": "Nederlands"
   }, 
   {
@@ -1263,7 +1263,7 @@
       3, 
       4
     ], 
-    "faculteit": "Geowetenschappen", 
+    "faculteit": "Geowetenschappen (Geosciences)", 
     "taal": "Nederlands"
   }, 
   {
@@ -1276,7 +1276,7 @@
       3, 
       4
     ], 
-    "faculteit": "B\u00e8tawetenschappen", 
+    "faculteit": "B\u00e8tawetenschappen (Science)", 
     "taal": "Nederlands"
   }, 
   {
@@ -1287,7 +1287,7 @@
       1, 
       2
     ], 
-    "faculteit": "Geowetenschappen", 
+    "faculteit": "Geowetenschappen (Geosciences)", 
     "taal": "Nederlands"
   }, 
   {
@@ -1297,7 +1297,7 @@
     "startperiod": [
       1
     ], 
-    "faculteit": "Geesteswetenschappen", 
+    "faculteit": "Geesteswetenschappen (Humanities)", 
     "taal": "Nederlands"
   }, 
   {
@@ -1307,7 +1307,7 @@
     "startperiod": [
       1
     ], 
-    "faculteit": "Geesteswetenschappen", 
+    "faculteit": "Geesteswetenschappen (Humanities)", 
     "taal": "Nederlands"
   }, 
   {
@@ -1317,7 +1317,7 @@
     "startperiod": [
       1
     ], 
-    "faculteit": "Recht, Economie, Bestuur en Organisatie", 
+    "faculteit": "Recht, Economie, Bestuur en Organisatie (Law, Economics and Governance)", 
     "taal": "Nederlands"
   }, 
   {
@@ -1328,7 +1328,7 @@
       1, 
       2
     ], 
-    "faculteit": "Geesteswetenschappen", 
+    "faculteit": "Geesteswetenschappen (Humanities)", 
     "taal": "Nederlands"
   }, 
   {
@@ -1340,7 +1340,7 @@
       2, 
       3
     ], 
-    "faculteit": "Geowetenschappen", 
+    "faculteit": "Geowetenschappen (Geosciences)", 
     "taal": "Nederlands"
   }, 
   {
@@ -1350,7 +1350,7 @@
     "startperiod": [
       1
     ], 
-    "faculteit": "Geesteswetenschappen", 
+    "faculteit": "Geesteswetenschappen (Humanities)", 
     "taal": "Nederlands"
   }, 
   {
@@ -1360,7 +1360,7 @@
     "startperiod": [
       1
     ], 
-    "faculteit": "B\u00e8tawetenschappen", 
+    "faculteit": "B\u00e8tawetenschappen (Science)", 
     "taal": "Nederlands"
   }, 
   {
@@ -1371,7 +1371,7 @@
       1, 
       3
     ], 
-    "faculteit": "B\u00e8tawetenschappen", 
+    "faculteit": "B\u00e8tawetenschappen (Science)", 
     "taal": "Nederlands"
   }, 
   {
@@ -1382,7 +1382,7 @@
       1, 
       3
     ], 
-    "faculteit": "B\u00e8tawetenschappen", 
+    "faculteit": "B\u00e8tawetenschappen (Science)", 
     "taal": "Nederlands"
   }
 ]

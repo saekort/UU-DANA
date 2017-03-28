@@ -21,6 +21,7 @@ const request = require('request');
 const finalhandler = require('finalhandler')
 const serveStatic = require('serve-static')
 const path = require('path');
+const util = require('util');
 
 const serve = serveStatic('public', {'index': ['index.html']});
 
@@ -35,6 +36,10 @@ const firstEntityValue = (entities, entity) => {
   }
   return typeof val === 'object' ? val.value : val;
 };
+
+const toUrl = (urlstr) => {
+  return util.format('<a target="_blank" href="%s">%s</a>', urlstr, urlstr);
+}
 
 let Wit = null;
 let log = null;
@@ -317,7 +322,7 @@ io.on('connection', function (socket) {
       var resp = [];
       for(var i = 0; i < mlist.length; i++)
       {
-         resp.push( '#' + mlist[i] + ' ' + minordb.getMinor(i)['name']); 
+         resp.push( '#' + mlist[i] + ' ' + minordb.getMinor(mlist[i])['name']); 
       }
       context.minors = resp.join('; ');
       return context;
@@ -341,14 +346,14 @@ io.on('connection', function (socket) {
       {
         var minor = minordb.getMinor(minor_a[0]);
         context.custom = 'You can find more information about the minor ' + minor['name']
-                       + ' here: ' + minordb.baseUrl() + minor['url'];
+                       + ' here: ' + toUrl( minordb.baseUrl() + minor['url'] );
       }
       if(minor_a.length > 1)
       {
         var resp = [];
         for(var i = 0; i < minor_a.length; i++)
         {
-           resp.push( '#' + minor_a[i] + ' ' + minordb.getMinor(i)['name']); 
+           resp.push( '#' + minor_a[i] + ' ' + minordb.getMinor(minor_a[i])['name']); 
         }
         context.custom = 'I found ' + minor_a.length + ' minors: ' + resp.join('; ')
                        + '. Type #number as shorthand to select a minor.';
@@ -356,51 +361,37 @@ io.on('connection', function (socket) {
       return context;
     },
     getMinorId(num, {context, entities}) {
-      console.log(entities);
       var minordb = require('./minordb');
       var minor = minordb.getMinor(num);
       context.minor_type = minor['name'];
-      context.minor_url = minordb.baseUrl() + minor['url'];
+      context.minor_url = toUrl( minordb.baseUrl() + minor['url'] );
       return context;
     },
-    getMinorInfoOld({context, entities}) {
-      var baseUrl = 'https://students.uu.nl';
+    findInFaculty({context, entities}) {
+      var faculty = firstEntityValue(entities, 'faculty');
+      var minordb = require('./minordb');
+      var minor_a = minordb.findMinors({'faculteit' : faculty});
+      var resp = [];
+      for(var i = 0; i < minor_a.length; i++)
+      {
+        resp.push( '#' + minor_a[i] + ' ' + minordb.getMinor(minor_a[i])['name']); 
+      }
+      // In {faculty} you can find: {minors}.
+      context.faculty = faculty;
+      context.minors = resp.join('; ');
+      return context;
+    },
+    findEnglishMinors({context, entities}) {
       console.log(entities);
-      var minor = firstEntityValue(entities, 'minor');
-      var minorUrl = '';
-      context.minor_type = minor;
-      context.minor_url = '';
-      var array_minor_matches = [];
-      var text_minor_matches = '';
-      if(minor != null)
+      var minordb = require('./minordb');
+      var minor_a = minordb.findMinors({'taal' : 'Engels'});
+      var resp = [];
+      for(var i = 0; i < minor_a.length; i++)
       {
-        for(var i=0, j=0; i < database.length; i++) {
-
-          // Find multiple matches
-          if(database[i].name.toUpperCase().includes( minor.toUpperCase()))
-          {
-            array_minor_matches.push( database[i].name );
-            j++;
-            if(j > 1) text_minor_matches = text_minor_matches + ", ";
-            text_minor_matches = text_minor_matches + "#" + j + " " +  database[i].name;
-            // Keep last url
-	    context.minor_url = baseUrl + database[i].url;
-          }
-        }
+        resp.push( '#' + minor_a[i] + ' ' + minordb.getMinor(minor_a[i])['name']); 
       }
-
-      if( array_minor_matches.length > 1 )
-      {
-         context.minor_type = text_minor_matches;
-         context.minor_url = baseUrl;
-	 return context;
-      } 
-      if(context.minor_url == '') 
-      {
-        context.minor_type = '[UNKNOWN MINOR]';
-        context.minor_url = baseUrl;
-        return context;
-      }
+      // The following minors are taught in English: {minors}.
+      context.minors = resp.join('; ');
       return context;
     },
     default({context, entities}) {
