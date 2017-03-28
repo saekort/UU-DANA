@@ -328,18 +328,20 @@ io.on('connection', function (socket) {
       {
         return this.getMinorId(num, {context, entities})
       }
-
       // Get info based on string...
       console.log(entities);
       var minors = firstEntityValue(entities, 'minor');
       var minordb = require('./minordb');
       var minor_a = minordb.findMinors({'name' : minors});
+      if(minor_a.length == 0)
+      {
+        context.custom = 'I don\'t known about that minor.';
+      }
       if(minor_a.length == 1)
       {
         var minor = minordb.getMinor(minor_a[0]);
         context.custom = 'You can find more information about the minor ' + minor['name']
                        + ' here: ' + minordb.baseUrl() + minor['url'];
-        return context;
       }
       if(minor_a.length > 1)
       {
@@ -350,7 +352,6 @@ io.on('connection', function (socket) {
         }
         context.custom = 'I found ' + minor_a.length + ' minors: ' + resp.join('; ')
                        + '. Type #number as shorthand to select a minor.';
-        return context;
       }
       return context;
     },
@@ -434,7 +435,7 @@ io.on('connection', function (socket) {
       sessions[sessionId].context = context;
     }).catch((err) => {
       console.error('Error: ', err.stack || err);
-      socket.emit('msg', {'message':'ERROR, DANA seems down'} );
+      socket.emit('msg', {'message':'Something went wrong or I may not have understood you. Please try to rephrase.'} );
     });
   });
 });
