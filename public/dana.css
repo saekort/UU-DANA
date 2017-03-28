@@ -29,8 +29,6 @@
     -moz-border-radius: 6px;
     border-radius: 6px;
     font-size: 100%;
-    word-wrap: break-word;
-    word-break: break-all;
 }
 #msgs {
     padding: 10px;
