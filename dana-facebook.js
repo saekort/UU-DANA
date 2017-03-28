@@ -317,7 +317,7 @@ io.on('connection', function (socket) {
       var resp = [];
       for(var i = 0; i < mlist.length; i++)
       {
-         resp.push( '#' + i + ' ' + minordb.getMinor(i)['name']); 
+         resp.push( '#' + mlist[i] + ' ' + minordb.getMinor(i)['name']); 
       }
       context.minors = resp.join('; ');
       return context;
@@ -328,7 +328,30 @@ io.on('connection', function (socket) {
       {
         return this.getMinorId(num, {context, entities})
       }
+
       // Get info based on string...
+      console.log(entities);
+      var minors = firstEntityValue(entities, 'minor');
+      var minordb = require('./minordb');
+      var minor_a = minordb.findMinors({'name' : minors});
+      if(minor_a.length == 1)
+      {
+        var minor = minordb.getMinor(minor_a[0]);
+        context.custom = 'You can find more information about the minor ' + minor['name']
+                       + ' here: ' + minordb.baseUrl() + minor['url'];
+        return context;
+      }
+      if(minor_a.length > 1)
+      {
+        var resp = [];
+        for(var i = 0; i < minor_a.length; i++)
+        {
+           resp.push( '#' + minor_a[i] + ' ' + minordb.getMinor(i)['name']); 
+        }
+        context.custom = 'I found ' + minor_a.length + ' minors: ' + resp.join('; ')
+                       + '. Type #number as shorthand to select a minor.';
+        return context;
+      }
       return context;
     },
     getMinorId(num, {context, entities}) {
