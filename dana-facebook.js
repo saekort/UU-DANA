@@ -322,10 +322,18 @@ io.on('connection', function (socket) {
       context.minors = resp.join('; ');
       return context;
     },
-    getMinorId({context, entities}) {
+    getMinorInfo({context, entities}) {
+      var num = firstEntityValue(entities, 'number');
+      if(num && Number.isInteger(num))
+      {
+        return this.getMinorId(num, {context, entities})
+      }
+      // Get info based on string...
+      return context;
+    },
+    getMinorId(num, {context, entities}) {
       console.log(entities);
       var minordb = require('./minordb');
-      var num = firstEntityValue(entities, 'number');
       var minor = minordb.getMinor(num);
       context.minor_type = minor['name'];
       context.minor_url = minordb.baseUrl() + minor['url'];
