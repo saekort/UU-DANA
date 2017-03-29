@@ -328,7 +328,7 @@ io.on('connection', function (socket) {
       return context;
     },
     findMinorsinTopicArea({context, entities}) {
-      //console.log(entities);
+      console.log(entities);
       var minordb = require('./minordb');
       var area = firstEntityValue(entities, 'topicArea');
       var minor_a = minordb.findMinors({'gebied': area});
@@ -372,7 +372,9 @@ io.on('connection', function (socket) {
       return context;
     },
     findInFaculty({context, entities}) {
+      console.log(entities);
       var faculty = firstEntityValue(entities, 'faculty');
+      if(faculty.toLowerCase() == 'science') faculty = "B\u00e8tawetenschappen";
       var minordb = require('./minordb');
       var minor_a = minordb.findMinors({'faculteit' : faculty});
       // In {faculty} you can find: {minors}.
