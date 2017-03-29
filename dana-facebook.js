@@ -41,6 +41,15 @@ const toUrl = (urlstr) => {
   return util.format('<a target="_blank" href="%s">%s</a>', urlstr, urlstr);
 }
 
+const toTextList = (ids, db, field) => {
+  var resp = [];
+  for(var i = 0; i < ids.length; i++)
+  {
+    resp.push( '#' + ids[i] + ' ' + db.getMinor(ids[i])[field]); 
+  }
+  return resp.join('; ');
+}
+
 let Wit = null;
 let log = null;
 try {
@@ -318,13 +327,8 @@ io.on('connection', function (socket) {
       //console.log(entities);
       var minordb = require('./minordb');
       var area = firstEntityValue(entities, 'topicArea');
-      var mlist = minordb.findMinors({'gebied': area});
-      var resp = [];
-      for(var i = 0; i < mlist.length; i++)
-      {
-         resp.push( '#' + mlist[i] + ' ' + minordb.getMinor(mlist[i])['name']); 
-      }
-      context.minors = resp.join('; ');
+      var minor_a = minordb.findMinors({'gebied': area});
+      context.minors = toTextList(minor_a, minordb, 'name');
       return context;
     },
     getMinorInfo({context, entities}) {
@@ -350,12 +354,8 @@ io.on('connection', function (socket) {
       }
       if(minor_a.length > 1)
       {
-        var resp = [];
-        for(var i = 0; i < minor_a.length; i++)
-        {
-           resp.push( '#' + minor_a[i] + ' ' + minordb.getMinor(minor_a[i])['name']); 
-        }
-        context.custom = 'I found ' + minor_a.length + ' minors: ' + resp.join('; ')
+        var minorsTextList = toTextList(minor_a, minordb, 'name');
+        context.custom = 'I found ' + minor_a.length + ' minors: ' + minorsTextList
                        + '. Type #number as shorthand to select a minor.';
       }
       return context;
@@ -371,27 +371,17 @@ io.on('connection', function (socket) {
       var faculty = firstEntityValue(entities, 'faculty');
       var minordb = require('./minordb');
       var minor_a = minordb.findMinors({'faculteit' : faculty});
-      var resp = [];
-      for(var i = 0; i < minor_a.length; i++)
-      {
-        resp.push( '#' + minor_a[i] + ' ' + minordb.getMinor(minor_a[i])['name']); 
-      }
       // In {faculty} you can find: {minors}.
+      context.minors = toTextList(minor_a, minordb, 'name');
       context.faculty = faculty;
-      context.minors = resp.join('; ');
       return context;
     },
     findEnglishMinors({context, entities}) {
       console.log(entities);
       var minordb = require('./minordb');
       var minor_a = minordb.findMinors({'taal' : 'Engels'});
-      var resp = [];
-      for(var i = 0; i < minor_a.length; i++)
-      {
-        resp.push( '#' + minor_a[i] + ' ' + minordb.getMinor(minor_a[i])['name']); 
-      }
       // The following minors are taught in English: {minors}.
-      context.minors = resp.join('; ');
+      context.minors = toTextList(minor_a, minordb, 'name');
       return context;
     },
     default({context, entities}) {
