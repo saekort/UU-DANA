@@ -186,7 +186,11 @@ var credentials = {key: privateKey, cert: certificate, ca: chain};
 
 const app = express();
 
-var httpServer = http.createServer(app);
+var httpServer = http.createServer(function(req, res) {
+	console.log(req);
+	res.writeHead(301, { "Location": "https://dana.uu.nl"});
+    res.end();
+});
 var httpsServer = https.createServer(credentials, app);
 
 app.use(({method, url}, rsp, next) => {
