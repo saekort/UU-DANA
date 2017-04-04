@@ -344,6 +344,7 @@ io.on('connection', function (socket) {
       // Get info based on string...
       console.log(entities);
       var minors = firstEntityValue(entities, 'minor');
+      if(minors == null) minors = '';
       var minordb = require('./minordb');
       var minor_a = minordb.findMinors({'name' : minors});
       if(minor_a.length == 0)
